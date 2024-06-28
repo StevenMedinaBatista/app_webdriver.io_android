@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Login" timestamp="2024-06-28T11:42:03" time="18.192" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Login" timestamp="2024-06-28T14:45:33" time="20.049" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="featureName" value="Login"/>
       <property name="capabilities" value="emulator-5554.android.12.app-ipsa-apk-24-062024_apk"/>
       <property name="featureFile" value="./features/mobile/01_login.feature"/>
     </properties>
-    <testcase classname="CucumberJUnitReport-emulator-5554.android.12.app-ipsa-apk-24-062024_apk.Login" name="Iniciar sesi n con credenciales v lidas en la aplicacion IPSA" time="18.168">
+    <testcase classname="CucumberJUnitReport-emulator-5554.android.12.app-ipsa-apk-24-062024_apk.Login" name="Iniciar sesi n con credenciales v lidas en la aplicacion IPSA" time="20.021">
       <system-out><![CDATA[
 ✅ Given I validate the text Consulta tus inversiones en todo momento✅ When I press the jump button✅ And I tap on the Acceso Clientes button✅ And I tap on the Iniciar sesion button✅ And I login with my credentials Usuario "40220596098" and Contraseña "Pass@1234"✅ Then I should see the dashboard
 ]]></system-out>
