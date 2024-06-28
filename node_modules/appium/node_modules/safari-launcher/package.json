@@ -1,0 +1,21 @@
+{
+  "name": "safari-launcher",
+  "version": "2.0.5",
+  "description": "iOS app that launches Safari after a delay",
+  "main": "package.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snevesbarros/SafariLauncher.git"
+  },
+  "keywords": [
+    "appium",
+    "ios",
+    "safari"
+  ],
+  "author": "http://github.com/budhash",
+  "license": "apache-2.0",
+  "bugs": {
+    "url": "https://github.com/snevesbarros/SafariLauncher/issues"
+  },
+  "homepage": "https://github.com/snevesbarros/SafariLauncher"
+}

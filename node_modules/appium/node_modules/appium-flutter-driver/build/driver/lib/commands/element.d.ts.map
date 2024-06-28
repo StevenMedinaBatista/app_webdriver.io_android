@@ -1,0 +1,1 @@
+{"version":3,"file":"element.d.ts","sourceRoot":"","sources":["../../../../lib/commands/element.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,aAAa,EAAE,MAAM,WAAW,CAAC;AAE1C,eAAO,MAAM,OAAO,SAAwB,aAAa,MAAM,MAAM,iBAGpE,CAAC;AAEF,eAAO,MAAM,QAAQ,SAAwB,aAAa,aAAa,MAAM,GAAG,CAAC,MAAM,CAAC,MAAM,MAAM,kBAYnG,CAAC;AAEF,eAAO,MAAM,KAAK,SAAwB,aAAa,MAAM,MAAM,kBAElE,CAAC"}

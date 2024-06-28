@@ -1,0 +1,9 @@
+**/node_modules/**
+**/*.mustache
+**/*.snap
+build/**
+.husky/**
+**/*.html
+coverage/**
+.vscode/**
+**/dist/**

@@ -1,0 +1,31 @@
+import { XMLElement } from 'xmlbuilder';
+declare class TestCase {
+    private _error;
+    private _failure;
+    private _skipped;
+    private _standardOutput?;
+    private _standardError?;
+    private _stacktrace?;
+    private _attributes;
+    private _errorAttributes;
+    private _failureAttributes;
+    private _errorAttachment?;
+    private _errorContent?;
+    constructor();
+    className(className: string): TestCase;
+    name(name: string): TestCase;
+    time(timeInSeconds: number): TestCase;
+    file(filepath: string): TestCase;
+    failure(message?: string, type?: string): TestCase;
+    error(message?: string, type?: string, content?: string): TestCase;
+    stacktrace(stacktrace: string): TestCase;
+    skipped(): TestCase;
+    standardOutput(log: string): TestCase;
+    standardError(log: string): TestCase;
+    getFailureCount(): number;
+    getErrorCount(): number;
+    getSkippedCount(): number;
+    errorAttachment(path: string): this;
+    build(parentElement: XMLElement): void;
+}
+export = TestCase;

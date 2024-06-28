@@ -1,0 +1,1 @@
+{"version":3,"file":"protocol-stub.d.ts","sourceRoot":"","sources":["../src/protocol-stub.ts"],"names":[],"mappings":";AAWA,MAAM,CAAC,OAAO,OAAO,YAAY;WAChB,UAAU,CAAE,OAAO,GAAE,SAAS,CAAC,OAAY;IAiBxD,MAAM,CAAC,aAAa;IAIpB,MAAM,CAAC,eAAe,CAClB,OAAO,CAAC,EAAE,SAAS,CAAC,oBAAoB,EACxC,QAAQ,CAAC,EAAE,CAAC,GAAG,IAAI,EAAE,GAAG,EAAE,KAAK,GAAG;CAazC"}

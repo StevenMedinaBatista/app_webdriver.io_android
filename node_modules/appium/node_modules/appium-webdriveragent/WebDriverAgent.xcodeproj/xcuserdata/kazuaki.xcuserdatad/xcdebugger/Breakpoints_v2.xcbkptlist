@@ -1,0 +1,3191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "85B8A7BB-AF39-4AA4-A91B-3E091377E49F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A9F66173-9518-449B-9BB0-00CC4F22A3E0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBXPath.m"
+            timestampString = "551537374.305424"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "320"
+            endingLineNumber = "320"
+            landmarkName = "+evaluate:document:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A00A53EE-97FC-41AA-822E-EB5C91B67A04"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/FBApplication.m"
+            timestampString = "573535990.0440609"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "+fb_activeApplicationWithDefaultBundleId:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FD03C36B-901E-4F06-A532-730E33954070"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/FBApplication.m"
+            timestampString = "573535990.04477"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "+fb_activeApplicationWithDefaultBundleId:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "34E69244-7E26-461D-87BF-4F8DAB4CBB53"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBSessionCommands.m"
+            timestampString = "573543236.2431999"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "+handleCreateSession:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8A7A71C-9244-471E-AD56-4DD888F82EEE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBSessionCommands.m"
+            timestampString = "573543296.7784981"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "+handleCreateSession:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FCE5B435-6417-4C17-A2A8-BA1BD762528A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBXCAXClientProxy.m"
+            timestampString = "573546169.498659"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "-snapshotForElement:attributes:maxDepth:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3420D952-E1B0-4A66-A172-A4759B1A35D2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBXCAXClientProxy.m"
+            timestampString = "573546212.0884579"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "-snapshotForElement:attributes:maxDepth:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4AE05AB-F253-40C1-939D-0B505182E5F3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBCustomCommands.m"
+            timestampString = "588012389.766982"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "263"
+            endingLineNumber = "263"
+            landmarkName = "+handlePeformIOHIDEvent:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "114A29B1-DA4E-45BA-9824-69186562AAD6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBCustomCommands.m"
+            timestampString = "588012389.767392"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "257"
+            endingLineNumber = "257"
+            landmarkName = "+handleActivateSiri:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51F52575-D72E-4854-94D5-70990AABC252"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBCustomCommands.m"
+            timestampString = "0"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "+handleHomescreenCommand:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E107AEAC-6A21-4066-BDB8-3BBFB6EEB81E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBCustomCommands.m"
+            timestampString = "0"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "+handleHomescreenCommand:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9431A7C9-52FF-4879-A301-CCDDF64B7AF3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBCustomCommands.m"
+            timestampString = "0"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "+handleHomescreenCommand:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "65E2A037-FDDD-4F25-8895-B989584BA514"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBCustomCommands.m"
+            timestampString = "0"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "+handleHomescreenCommand:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8563B5D-FA15-421E-BD78-3E692392F6A6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/FBSpringboardApplication.m"
+            timestampString = "0"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "-fb_waitUntilApplicationBoardIsVisible:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C175DF91-A5D2-41BE-AD84-CB6BD3D377D4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBCustomCommands.m"
+            timestampString = "0"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "+routes"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8606C9F6-8A67-4DC9-B72B-BADEE1ECA185"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBConfiguration.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "542"
+            endingLineNumber = "542"
+            landmarkName = "+setReduceMotionEnabled:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3130B9D9-7754-4F1C-A9BA-9EE059D9550A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBConfiguration.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "543"
+            endingLineNumber = "543"
+            landmarkName = "+setReduceMotionEnabled:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "442DC620-432E-4C04-9375-E8DCA9C5B271"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBCustomCommands.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "306"
+            endingLineNumber = "306"
+            landmarkName = "FBCustomCommands"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94AB7150-F82A-428D-8441-F24A47115E32"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBScreen.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "+statusBarSizeForApplication:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17535DC3-8BF3-4F78-978C-3B78CCF9CDA3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBSessionCommands.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "+handleOpenURL:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30F9F989-56E7-450B-94E1-6C6D5D6FC00C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBSessionCommands.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "+handleOpenURL:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "296814BD-33BE-4F33-8C18-B4642F085641"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Categories/XCUIApplicationProcess+FBQuiescence.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "swizzledWaitForQuiescenceIncludingAnimationsIdle(self, includingAnimations)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C1E501CA-8378-47ED-9C80-6D7B5A76C3E5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Categories/XCUIApplicationProcess+FBQuiescence.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "+load"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E5F4EFE-B308-4031-AA50-6D656929F706"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Categories/XCUIApplicationProcess+FBQuiescence.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "+load"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FACDDF41-4B81-48DF-BD84-C6E0ED509F8C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBCustomCommands.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "275"
+            endingLineNumber = "275"
+            landmarkName = "+handlePeformIOHIDEvent:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37FA73E5-ED83-4D04-8453-161E214F837A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBCustomCommands.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "282"
+            endingLineNumber = "282"
+            landmarkName = "+handleLaunchUnattachedApp:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6443EB1E-ABBE-4234-A930-E3573DF92239"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBScreenshot.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "+takeWithScreenID:scale:compressionQuality:rect:sourceUTI:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D553156B-EAAC-48B5-A201-A4855888F479"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBScreenshot.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "+takeInOriginalResolutionWithQuality:rect:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CBA25643-A03E-4408-A32D-245CEB634874"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBScreenshot.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "+takeInOriginalResolutionWithQuality:rect:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7272C93-BC06-46D5-A45F-5B7D004E8BFF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBScreenshot.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "+takeInOriginalResolutionWithQuality:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2CED838E-DA0B-45AC-B6E5-89F307217FE1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBImageIOScaler.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "-submitImage:uti:scalingFactor:compressionQuality:completionHandler:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2CED838E-DA0B-45AC-B6E5-89F307217FE1 - 90d26db73e1b824"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBImageIOScaler submitImage:uti:scalingFactor:compressionQuality:completionHandler:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Utilities/FBImageIOScaler.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "341">
+               </Location>
+               <Location
+                  uuid = "2CED838E-DA0B-45AC-B6E5-89F307217FE1 - 90d26db73e1b824"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBImageIOScaler submitImage:uti:scalingFactor:compressionQuality:completionHandler:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Utilities/FBImageIOScaler.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "346">
+               </Location>
+               <Location
+                  uuid = "2CED838E-DA0B-45AC-B6E5-89F307217FE1 - 90d26db73e1b824"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBImageIOScaler submitImage:uti:scalingFactor:compressionQuality:completionHandler:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Utilities/FBImageIOScaler.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "521">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EBA85278-A0F9-414E-9D82-4252CEB994FA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBScreenshot.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "+takeWithScreenID:scale:compressionQuality:rect:sourceUTI:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "774ED0CF-929F-402B-AFC1-51978DF91874"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBScreenshot.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "+compressionQualityWithQuality:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "60F615FC-2F1D-486B-8562-5C172B0C5338"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/XCUIDeviceHelperTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "-testLandscapeScreenshot"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B31EB68D-0E0F-4118-BF1E-FC9CCB47F03E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/XCUIDeviceHelperTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "-testLandscapeScreenshot"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7407E8F4-877A-4DDF-8F6A-A9E9FA3D7EB3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBImageIOScaler.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "-scaledImageWithImage:uti:rect:scalingFactor:compressionQuality:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8229F5B-4277-4381-ABE5-5B54FB06EF54"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBImageIOScaler.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "149"
+            endingLineNumber = "149"
+            landmarkName = "-scaledImageWithImage:uti:rect:scalingFactor:compressionQuality:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E57763BD-AF14-412F-A467-F4A1E8D92D91"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBImageIOScaler.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "-scaledImageWithImage:uti:rect:scalingFactor:compressionQuality:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "987055D5-4CC2-473A-8CF0-49BE5E4BADAF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBImageIOScaler.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
+            landmarkName = "-scaledImageWithImage:uti:rect:scalingFactor:compressionQuality:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79E80161-2798-4CA8-BE27-CD9BB7B2E576"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBImageIOScaler.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "-scaledImageWithImage:uti:rect:scalingFactor:compressionQuality:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "806B9AFA-8F5D-4043-9D97-D9419CECEF37"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBScreenshot.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "+takeInOriginalResolutionWithQuality:rect:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22CF5998-BB36-4DD7-85CE-84D49C19D3D2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBScreenshot.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "+takeInOriginalResolutionWithQuality:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3AD5D9F-F9C3-43A6-9087-AAFDCD4B5005"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBCustomCommands.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "301"
+            endingLineNumber = "301"
+            landmarkName = "FBCustomCommands"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F01B40B-3CAC-41A2-B16A-F4B042B799FA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBCustomCommands.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "302"
+            endingLineNumber = "302"
+            landmarkName = "FBCustomCommands"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7CC7853E-FF88-4DA6-9A88-B5CFA89F19E4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/XCUIDeviceHelperTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "-testPressingSupportedButton"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98E8247D-35CD-4457-9418-1FFE87DE6E6A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Categories/XCUIDevice+FBHelpers.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "259"
+            endingLineNumber = "259"
+            landmarkName = "-fb_pressButton:forDuration:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88DEF201-FF0A-44FB-AD9A-64B3B7655B49"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Categories/XCUIDevice+FBHelpers.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "262"
+            endingLineNumber = "262"
+            landmarkName = "-fb_pressButton:forDuration:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "600F9490-99C4-4BEE-86AC-6ADAEDB54A2B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBCustomCommands.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
+            landmarkName = "+handleSetPasteboard:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59CDBA34-622B-4935-B522-5DDC1901A8E2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBOrientationCommands.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "+handleSetOrientation:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7257A210-EA86-4BFC-AD57-1719E48D8D38"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBOrientationCommands.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "+handleGetRotation:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4129BD6-B776-4A8B-84BD-1587C13238B3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBConfiguration.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "258"
+            endingLineNumber = "258"
+            landmarkName = "FBConfiguration"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B1A6BE6-2E14-4A7B-9F44-0F93EFE6D57D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBXCodeCompatibility.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "-fb_terminate"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D3B52E4-318B-4ED3-8471-CD1A70449512"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBXCodeCompatibility.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "-fb_terminate"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20DED0B5-BB71-4BCB-A0B1-5A4F6AB36D72"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Routing/FBSession.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
+            landmarkName = "-launchApplicationWithBundleId:shouldWaitForQuiescence:arguments:environment:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29FA0251-5585-47D4-8C7C-4E7D278E9F07"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Routing/FBSession.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "-launchApplicationWithBundleId:shouldWaitForQuiescence:arguments:environment:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61C4E072-4417-4062-80D6-69287EB84D7B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Routing/FBSession.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
+            landmarkName = "-launchApplicationWithBundleId:shouldWaitForQuiescence:arguments:environment:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5F16F317-3F83-46CA-85FE-A3EDB32AC230"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBSessionCommands.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
+            landmarkName = "+handleSessionAppActivate:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0BDFBA35-902A-499E-8556-3CB4212A7C7F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Routing/FBSession.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
+            landmarkName = "-activateApplicationWithBundleId:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4246D8BF-6685-4D6B-8B0A-1B39173909B2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBXCTestDaemonsProxy.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "+load"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "267E9010-2A51-4B10-AAE8-66CB4FFEC14A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBElementCommands.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "432"
+            endingLineNumber = "432"
+            landmarkName = "+handleClick:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7B80BBA-457A-4EAF-A5A1-0ED9A1C3AEDA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBElementCommands.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "442"
+            endingLineNumber = "442"
+            landmarkName = "+handleClick:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88FA0DBE-71FC-4F9A-B9BE-B7F77D74936C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBElementCommands.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "445"
+            endingLineNumber = "445"
+            landmarkName = "+handleClick:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DAEB2B1-6E14-466B-BA7A-43E84F2E63D9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBSessionCommands.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "+handleCreateSession:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1BE654E1-BD78-4CAE-8A5C-26FAD6DADB7D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBSessionCommands.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "+handleCreateSession:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1BE654E1-BD78-4CAE-8A5C-26FAD6DADB7D - c8b9b49259309afa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[FBSessionCommands handleCreateSession:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Commands/FBSessionCommands.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "2286">
+               </Location>
+               <Location
+                  uuid = "1BE654E1-BD78-4CAE-8A5C-26FAD6DADB7D - c8b9b49259309afa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[FBSessionCommands handleCreateSession:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Commands/FBSessionCommands.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "2412">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B2B56415-93A8-4E52-9623-01537F2FEA27"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/FBKeyboardTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "-testKeyboardDismissal"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B2B56415-93A8-4E52-9623-01537F2FEA27 - 314722207a785c7f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBKeyboardTests testKeyboardDismissal]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBKeyboardTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "5253">
+               </Location>
+               <Location
+                  uuid = "B2B56415-93A8-4E52-9623-01537F2FEA27 - 314722207a785c7f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBKeyboardTests testKeyboardDismissal]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBKeyboardTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "5821">
+               </Location>
+               <Location
+                  uuid = "B2B56415-93A8-4E52-9623-01537F2FEA27 - 314722207a785c7f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBKeyboardTests testKeyboardDismissal]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBKeyboardTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "6128">
+               </Location>
+               <Location
+                  uuid = "B2B56415-93A8-4E52-9623-01537F2FEA27 - 314722207a785c7f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBKeyboardTests testKeyboardDismissal]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBKeyboardTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "6232">
+               </Location>
+               <Location
+                  uuid = "B2B56415-93A8-4E52-9623-01537F2FEA27 - 314722207a785c1e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBKeyboardTests testKeyboardDismissal]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBKeyboardTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "5108">
+               </Location>
+               <Location
+                  uuid = "B2B56415-93A8-4E52-9623-01537F2FEA27 - 314722207a785c1e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBKeyboardTests testKeyboardDismissal]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBKeyboardTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "5676">
+               </Location>
+               <Location
+                  uuid = "B2B56415-93A8-4E52-9623-01537F2FEA27 - 314722207a785c1e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBKeyboardTests testKeyboardDismissal]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBKeyboardTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "5983">
+               </Location>
+               <Location
+                  uuid = "B2B56415-93A8-4E52-9623-01537F2FEA27 - 314722207a785c1e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBKeyboardTests testKeyboardDismissal]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBKeyboardTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "6087">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C870DA90-F877-4A8C-921F-593773E5E6F3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/FBKeyboardTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "-testKeyboardDismissal"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C870DA90-F877-4A8C-921F-593773E5E6F3 - 314722207a785c39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBKeyboardTests testKeyboardDismissal]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBKeyboardTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "5647">
+               </Location>
+               <Location
+                  uuid = "C870DA90-F877-4A8C-921F-593773E5E6F3 - 314722207a785c39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBKeyboardTests testKeyboardDismissal]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBKeyboardTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "6761">
+               </Location>
+               <Location
+                  uuid = "C870DA90-F877-4A8C-921F-593773E5E6F3 - 314722207a785c39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBKeyboardTests testKeyboardDismissal]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBKeyboardTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "6809">
+               </Location>
+               <Location
+                  uuid = "C870DA90-F877-4A8C-921F-593773E5E6F3 - 314722207a785c39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBKeyboardTests testKeyboardDismissal]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBKeyboardTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "6913">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9683200-C4B5-4484-854E-7ED55ADB56A5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBScreenshot.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
+            landmarkName = "+shouldUseScreenshotRequestApiForProxy:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D9683200-C4B5-4484-854E-7ED55ADB56A5 - da8c1bde0cd97ef6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__54+[FBScreenshot shouldUseScreenshotRequestApiForProxy:]_block_invoke"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Utilities/FBScreenshot.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "217"
+                  endingLineNumber = "217"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "D9683200-C4B5-4484-854E-7ED55ADB56A5 - da8c1bde0cd97e55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__54+[FBScreenshot shouldUseScreenshotRequestApiForProxy:]_block_invoke"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Utilities/FBScreenshot.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "214"
+                  endingLineNumber = "214"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E4E9A15-14B4-40F3-90E4-D0C016AF1DEE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBScreenshot.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "+takeInOriginalResolutionWithQuality:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "317C08C8-2A9E-49C9-A677-25380DD1ED80"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBScreenshot.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "+takeInOriginalResolutionWithScreenID:compressionQuality:uti:timeout:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4E406572-8A89-4A03-9F96-9D7657572672"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBScreenshot.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "+takeInOriginalResolutionWithScreenID:compressionQuality:uti:timeout:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B63B264D-EEA5-4E22-A8EA-B8D6F47F766C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBScreenshot.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "271"
+            endingLineNumber = "271"
+            landmarkName = "+screenshotRequestWithScreenID:rect:uti:compressionQuality:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "592F1D77-190E-499C-9A1E-BBA0465EE6E4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBScreenshot.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "279"
+            endingLineNumber = "279"
+            landmarkName = "+screenshotRequestWithScreenID:rect:uti:compressionQuality:error:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "592F1D77-190E-499C-9A1E-BBA0465EE6E4 - ca29c2af56bf8ba8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[FBScreenshot screenshotRequestWithScreenID:rect:uti:compressionQuality:error:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Utilities/FBScreenshot.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "279"
+                  endingLineNumber = "279"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "592F1D77-190E-499C-9A1E-BBA0465EE6E4 - ca29c2af56bf8ba8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[FBScreenshot screenshotRequestWithScreenID:rect:uti:compressionQuality:error:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Utilities/FBScreenshot.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "279"
+                  endingLineNumber = "279"
+                  offsetFromSymbolStart = "383">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1551B61C-1246-4F6D-993A-71BE78D57F92"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBScreenshot.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "295"
+            endingLineNumber = "295"
+            landmarkName = "+screenshotRequestWithScreenID:rect:uti:compressionQuality:error:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1551B61C-1246-4F6D-993A-71BE78D57F92 - ca29c2af56bf8998"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[FBScreenshot screenshotRequestWithScreenID:rect:uti:compressionQuality:error:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Utilities/FBScreenshot.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "295"
+                  endingLineNumber = "295"
+                  offsetFromSymbolStart = "696">
+               </Location>
+               <Location
+                  uuid = "1551B61C-1246-4F6D-993A-71BE78D57F92 - ca29c2af56bf8998"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[FBScreenshot screenshotRequestWithScreenID:rect:uti:compressionQuality:error:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Utilities/FBScreenshot.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "295"
+                  endingLineNumber = "295"
+                  offsetFromSymbolStart = "781">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E20891F3-5491-4FF4-912E-8AC5ED9BB12D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/FBSafariAlertTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "-disabled_testCanHandleSafariInputPrompt"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A979FC6-FC1F-499B-B65F-B8BC1CA9B277"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/FBSafariAlertTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "-disabled_testCanHandleSafariInputPrompt"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95BC8410-599E-4D41-96C8-20BAED51D0CB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/FBSafariAlertTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "-disabled_testCanHandleSafariInputPrompt"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "95BC8410-599E-4D41-96C8-20BAED51D0CB - ec6ef224d54b2777"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBSafariAlertIntegrationTests testCanHandleSafariInputPrompt]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBSafariAlertTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "2678">
+               </Location>
+               <Location
+                  uuid = "95BC8410-599E-4D41-96C8-20BAED51D0CB - ec6ef224d54b2777"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBSafariAlertIntegrationTests testCanHandleSafariInputPrompt]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBSafariAlertTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "2689">
+               </Location>
+               <Location
+                  uuid = "95BC8410-599E-4D41-96C8-20BAED51D0CB - ec6ef224d54b2777"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBSafariAlertIntegrationTests testCanHandleSafariInputPrompt]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBSafariAlertTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "4093">
+               </Location>
+               <Location
+                  uuid = "95BC8410-599E-4D41-96C8-20BAED51D0CB - ec6ef224d54b2777"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBSafariAlertIntegrationTests testCanHandleSafariInputPrompt]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBSafariAlertTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "4405">
+               </Location>
+               <Location
+                  uuid = "95BC8410-599E-4D41-96C8-20BAED51D0CB - ec6ef224d54b2777"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBSafariAlertIntegrationTests testCanHandleSafariInputPrompt]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBSafariAlertTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "4509">
+               </Location>
+               <Location
+                  uuid = "95BC8410-599E-4D41-96C8-20BAED51D0CB - ec6ef224d54b2777"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBSafariAlertIntegrationTests testCanHandleSafariInputPrompt]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBSafariAlertTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "5240">
+               </Location>
+               <Location
+                  uuid = "95BC8410-599E-4D41-96C8-20BAED51D0CB - ec6ef224d54b2777"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBSafariAlertIntegrationTests testCanHandleSafariInputPrompt]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBSafariAlertTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "5750">
+               </Location>
+               <Location
+                  uuid = "95BC8410-599E-4D41-96C8-20BAED51D0CB - ec6ef224d54b2777"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBSafariAlertIntegrationTests testCanHandleSafariInputPrompt]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBSafariAlertTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "5854">
+               </Location>
+               <Location
+                  uuid = "95BC8410-599E-4D41-96C8-20BAED51D0CB - 35afa6880836ea84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__63-[FBSafariAlertIntegrationTests testCanHandleSafariInputPrompt]_block_invoke"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBSafariAlertTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5D59CDE-4243-4397-9C92-82FC0F14A9A3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/FBScrollingTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "-testAttributeWithNullScrollToVisible"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35DF7212-B8FD-433A-878B-4B63734F8209"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/FBElementVisibilityTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "-testSpringBoardIcons"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8B9B5BAD-72A9-4DF3-96DA-58DC7658F416"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/XCUIElementFBFindTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "319"
+            endingLineNumber = "319"
+            landmarkName = "-testClassChainWithDescendantPredicate"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CBE6E39A-CDB5-4F6D-9563-ACEFAA205B6A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/FBPasteboardTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "-testGetPasteboard"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CBE6E39A-CDB5-4F6D-9563-ACEFAA205B6A - da51e9ba340daf3e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBPasteboardTests testGetPasteboard]"
+                  moduleName = "IntegrationTests_3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBPasteboardTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "2155">
+               </Location>
+               <Location
+                  uuid = "CBE6E39A-CDB5-4F6D-9563-ACEFAA205B6A - da51e9ba340daf3e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBPasteboardTests testGetPasteboard]"
+                  moduleName = "IntegrationTests_3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBPasteboardTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "3264">
+               </Location>
+               <Location
+                  uuid = "CBE6E39A-CDB5-4F6D-9563-ACEFAA205B6A - da51e9ba340daf3e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBPasteboardTests testGetPasteboard]"
+                  moduleName = "IntegrationTests_3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBPasteboardTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "3801">
+               </Location>
+               <Location
+                  uuid = "CBE6E39A-CDB5-4F6D-9563-ACEFAA205B6A - da51e9ba340daf3e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBPasteboardTests testGetPasteboard]"
+                  moduleName = "IntegrationTests_3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBPasteboardTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "3905">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C035B03-6634-4CA0-8ACA-4C89D53C69E7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Categories/XCUIElement+FBForceTouch.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "-fb_forceTouchCoordinate:pressure:duration:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "65193E00-A2DF-40A8-80C9-1BC0E9D240AF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Routing/FBSession.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "-didDetectAlert:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05982D07-33D1-49EA-B9FE-26F2888312BA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Routing/FBSession.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "-didDetectAlert:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "15960A1D-5DCB-46FC-B24B-1270624F2D52"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Routing/FBSession.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "-didDetectAlert:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17228BD6-2B60-4712-A844-185894BB3250"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/FBAlert.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
+            landmarkName = "-acceptWithError:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "713AA9E6-ACE9-4223-8881-A975C8BB8625"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/FBAlert.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
+            landmarkName = "-acceptWithError:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "128F37DC-0F34-4F26-BFD0-F24B740639EA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/FBAlert.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
+            landmarkName = "-acceptWithError:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62EAC69D-A264-4E8B-8C89-9B1DFCA78DAA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/FBAlert.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
+            landmarkName = "-acceptWithError:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B03AF61E-C32F-4D36-A01E-2AF0743B4024"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Categories/XCUIElement+FBTap.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "-fb_tapWithError:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B03AF61E-C32F-4D36-A01E-2AF0743B4024 - 5b50a34f8cfbe187"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[XCUIElement(FBTap) fb_tapWithError:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Categories/XCUIElement+FBTap.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "163">
+               </Location>
+               <Location
+                  uuid = "B03AF61E-C32F-4D36-A01E-2AF0743B4024 - 5b50a34f8cfbe0da"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[XCUIElement(FBTap) fb_tapWithError:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Categories/XCUIElement+FBTap.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "205">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1BCBE151-DB25-426F-ABF7-49020302B16E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/FBAppiumMultiTouchActionsIntegrationTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "-verifyGesture:orientation:tapsCount:touchesCount:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1BCBE151-DB25-426F-ABF7-49020302B16E - d9e7de0f1a26aa88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBAppiumMultiTouchActionsIntegrationTestsPart2 verifyGesture:orientation:tapsCount:touchesCount:]"
+                  moduleName = "IntegrationTests_3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBAppiumMultiTouchActionsIntegrationTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "1002">
+               </Location>
+               <Location
+                  uuid = "1BCBE151-DB25-426F-ABF7-49020302B16E - d9e7de0f1a26aa88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBAppiumMultiTouchActionsIntegrationTestsPart2 verifyGesture:orientation:tapsCount:touchesCount:]"
+                  moduleName = "IntegrationTests_3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBAppiumMultiTouchActionsIntegrationTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "2046">
+               </Location>
+               <Location
+                  uuid = "1BCBE151-DB25-426F-ABF7-49020302B16E - d9e7de0f1a26aa88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBAppiumMultiTouchActionsIntegrationTestsPart2 verifyGesture:orientation:tapsCount:touchesCount:]"
+                  moduleName = "IntegrationTests_3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBAppiumMultiTouchActionsIntegrationTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "2339">
+               </Location>
+               <Location
+                  uuid = "1BCBE151-DB25-426F-ABF7-49020302B16E - d9e7de0f1a26aa88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBAppiumMultiTouchActionsIntegrationTestsPart2 verifyGesture:orientation:tapsCount:touchesCount:]"
+                  moduleName = "IntegrationTests_3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBAppiumMultiTouchActionsIntegrationTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "2443">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85906359-3EDB-4C4C-948D-E0A118BD0E9C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/FBAppiumMultiTouchActionsIntegrationTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "-verifyGesture:orientation:tapsCount:touchesCount:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B7032AC-5E97-4305-91C0-83634A2EFBE5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Categories/XCUIElement+FBTap.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "-fb_tapWithError:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6B7032AC-5E97-4305-91C0-83634A2EFBE5 - 5b50a34f8cfbe1e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[XCUIElement(FBTap) fb_tapWithError:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Categories/XCUIElement+FBTap.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "6B7032AC-5E97-4305-91C0-83634A2EFBE5 - 5b50a34f8cfbe1e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[XCUIElement(FBTap) fb_tapWithError:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Categories/XCUIElement+FBTap.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "37">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5561F9F1-A5B6-4FB0-A5FE-4C28FC8DC1BF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/FBAppiumMultiTouchActionsIntegrationTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "-testSymmetricTwoFingersTap"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CFEBE88-271F-4045-90B1-2C8D7DD9C8A1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Categories/XCUIElement+FBTap.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "-fb_tapWithError:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3CFEBE88-271F-4045-90B1-2C8D7DD9C8A1 - 5b50a34f8cfbe1a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[XCUIElement(FBTap) fb_tapWithError:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Categories/XCUIElement+FBTap.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "3CFEBE88-271F-4045-90B1-2C8D7DD9C8A1 - 5b50a34f8cfbe1a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[XCUIElement(FBTap) fb_tapWithError:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Categories/XCUIElement+FBTap.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58EE8BAA-BC54-4C58-9BAD-BC733BA7A690"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/FBW3CMultiTouchActionsIntegrationTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "-verifyGesture:orientation:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "58EE8BAA-BC54-4C58-9BAD-BC733BA7A690 - f1a59299521c9bf5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBW3CMultiTouchActionsIntegrationTests verifyGesture:orientation:]"
+                  moduleName = "IntegrationTests_3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBW3CMultiTouchActionsIntegrationTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "170">
+               </Location>
+               <Location
+                  uuid = "58EE8BAA-BC54-4C58-9BAD-BC733BA7A690 - f1a59299521c9bf5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBW3CMultiTouchActionsIntegrationTests verifyGesture:orientation:]"
+                  moduleName = "IntegrationTests_3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBW3CMultiTouchActionsIntegrationTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "609">
+               </Location>
+               <Location
+                  uuid = "58EE8BAA-BC54-4C58-9BAD-BC733BA7A690 - f1a59299521c9bf5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBW3CMultiTouchActionsIntegrationTests verifyGesture:orientation:]"
+                  moduleName = "IntegrationTests_3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBW3CMultiTouchActionsIntegrationTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1190">
+               </Location>
+               <Location
+                  uuid = "58EE8BAA-BC54-4C58-9BAD-BC733BA7A690 - f1a59299521c9bf5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBW3CMultiTouchActionsIntegrationTests verifyGesture:orientation:]"
+                  moduleName = "IntegrationTests_3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBW3CMultiTouchActionsIntegrationTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1285">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E49C2EFE-4FC1-4BBD-8A6C-0047ABD078A2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/FBW3CMultiTouchActionsIntegrationTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "-verifyGesture:orientation:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0F64974-9764-4BA1-B1EA-337A3ED0680F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/FBAppiumMultiTouchActionsIntegrationTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "-verifyGesture:orientation:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C0F64974-9764-4BA1-B1EA-337A3ED0680F - 6bbee79021326404"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBAppiumMultiTouchActionsIntegrationTestsPart1 verifyGesture:orientation:]"
+                  moduleName = "IntegrationTests_3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBAppiumMultiTouchActionsIntegrationTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "170">
+               </Location>
+               <Location
+                  uuid = "C0F64974-9764-4BA1-B1EA-337A3ED0680F - 6bbee79021326404"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBAppiumMultiTouchActionsIntegrationTestsPart1 verifyGesture:orientation:]"
+                  moduleName = "IntegrationTests_3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBAppiumMultiTouchActionsIntegrationTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "609">
+               </Location>
+               <Location
+                  uuid = "C0F64974-9764-4BA1-B1EA-337A3ED0680F - 6bbee79021326404"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBAppiumMultiTouchActionsIntegrationTestsPart1 verifyGesture:orientation:]"
+                  moduleName = "IntegrationTests_3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBAppiumMultiTouchActionsIntegrationTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "1190">
+               </Location>
+               <Location
+                  uuid = "C0F64974-9764-4BA1-B1EA-337A3ED0680F - 6bbee79021326404"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBAppiumMultiTouchActionsIntegrationTestsPart1 verifyGesture:orientation:]"
+                  moduleName = "IntegrationTests_3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBAppiumMultiTouchActionsIntegrationTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "1285">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C901046-8DF5-4FA8-BF45-165906BF1FB6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Categories/XCUIApplication+FBTouchAction.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "-fb_performW3CActions:elementCache:error:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4C901046-8DF5-4FA8-BF45-165906BF1FB6 - af38cb43122fd52f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[XCUIApplication(FBTouchAction) fb_performW3CActions:elementCache:error:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Categories/XCUIApplication+FBTouchAction.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "4C901046-8DF5-4FA8-BF45-165906BF1FB6 - af38cb43122fd52f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[XCUIApplication(FBTouchAction) fb_performW3CActions:elementCache:error:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Categories/XCUIApplication+FBTouchAction.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "165">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78BB6025-C60F-4E6D-96AB-C837614B1795"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Categories/XCUIApplication+FBTouchAction.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "-fb_performActionsWithSynthesizerType:actions:elementCache:error:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "78BB6025-C60F-4E6D-96AB-C837614B1795 - 833e8f83866ca662"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[XCUIApplication(FBTouchAction) fb_performActionsWithSynthesizerType:actions:elementCache:error:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Categories/XCUIApplication+FBTouchAction.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "244">
+               </Location>
+               <Location
+                  uuid = "78BB6025-C60F-4E6D-96AB-C837614B1795 - 833e8f83866ca662"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[XCUIApplication(FBTouchAction) fb_performActionsWithSynthesizerType:actions:elementCache:error:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Categories/XCUIApplication+FBTouchAction.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "266">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F30DDE6-4434-435A-9EE8-22D3E1A9A0C4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/FBTapTest.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "-verifyTapWithOrientation:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51116F31-2998-4A3D-950A-EA7DF60D4C65"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/FBAlert.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
+            landmarkName = "-dismissWithError:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "661FCF05-6F80-47A7-8EF8-8079F52ADFB3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/FBAlert.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "230"
+            endingLineNumber = "230"
+            landmarkName = "-dismissWithError:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD8CE718-4ED9-4E77-AFEE-A9FADEBB9A66"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/FBAlert.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
+            landmarkName = "-dismissWithError:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "25EDE7B9-CE9F-459B-A712-DC08B7E6779F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IntegrationAppUITests2/IntegrationAppUITests2.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "-testExample"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE053BAA-F163-4B05-84C6-34CF748AA852"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/FBAlertTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "-testCameraRollAlert"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CE053BAA-F163-4B05-84C6-34CF748AA852 - 9bdf05472cb509d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBAlertTests testCameraRollAlert]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBAlertTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "3221">
+               </Location>
+               <Location
+                  uuid = "CE053BAA-F163-4B05-84C6-34CF748AA852 - 9bdf05472cb509d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBAlertTests testCameraRollAlert]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBAlertTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "4450">
+               </Location>
+               <Location
+                  uuid = "CE053BAA-F163-4B05-84C6-34CF748AA852 - 9bdf05472cb509d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBAlertTests testCameraRollAlert]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBAlertTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "4791">
+               </Location>
+               <Location
+                  uuid = "CE053BAA-F163-4B05-84C6-34CF748AA852 - 9bdf05472cb509d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBAlertTests testCameraRollAlert]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBAlertTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "4895">
+               </Location>
+               <Location
+                  uuid = "CE053BAA-F163-4B05-84C6-34CF748AA852 - 9bdf05472cb509d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBAlertTests testCameraRollAlert]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBAlertTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "4924">
+               </Location>
+               <Location
+                  uuid = "CE053BAA-F163-4B05-84C6-34CF748AA852 - 9bdf05472cb509d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBAlertTests testCameraRollAlert]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBAlertTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "5028">
+               </Location>
+               <Location
+                  uuid = "CE053BAA-F163-4B05-84C6-34CF748AA852 - 9bdf05472cb509d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBAlertTests testCameraRollAlert]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBAlertTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "4921">
+               </Location>
+               <Location
+                  uuid = "CE053BAA-F163-4B05-84C6-34CF748AA852 - 9bdf05472cb509d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBAlertTests testCameraRollAlert]"
+                  moduleName = "IntegrationTests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentTests/IntegrationTests/FBAlertTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "5025">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22B26A87-F941-4C15-893D-192A6CE78F3E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/FBElementScreenshotTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "-testElementScreenshot"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D2B2CEA0-B003-4645-913B-CC4A119C7EE3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/FBElementScreenshotTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "-testElementScreenshot"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D6D4FF1-F395-4585-B1D6-27AA5247EF0F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/FBW3CTouchActionsIntegrationTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "298"
+            endingLineNumber = "298"
+            landmarkName = "-testDoubleTap"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4FF5456-7B93-424B-B8B4-C39299B8ADE0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBConfiguration.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "288"
+            endingLineNumber = "288"
+            landmarkName = "+configureDefaultKeyboardPreferences"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2591D62-D82F-4607-889B-FA8099657934"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/FBAlert.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "-text"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F71BC48-E0A9-4B97-9B8F-EE1BC5F9CEDD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Routing/FBSession.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
+            landmarkName = "-launchApplicationWithBundleId:shouldWaitForQuiescence:arguments:environment:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CDA6AC2F-BDFB-42CB-9236-765C8CA2BB76"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBCustomCommands.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "+handleActiveAppInfo:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7EEF36FB-43F7-469D-B4E0-EE409AB118EF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBCustomCommands.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
+            landmarkName = "+handleActiveAppInfo:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F00301E-6B93-4AC8-BE09-8C31F10CEAA1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBSessionCommands.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "+handleCreateSession:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D69F1D8-41CD-470C-AC0D-B49732ABA4D6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBSessionCommands.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "+handleCreateSession:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CB74BAD7-1E51-4933-B4E8-D221F0FA5078"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/FBAppiumTouchActionsIntegrationTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
+            landmarkName = "-testDoubleTap"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6DC008C3-0588-4D3C-A148-2FFA2E208B49"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/FBAppiumTouchActionsIntegrationTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "197"
+            endingLineNumber = "197"
+            landmarkName = "-testDoubleTap"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA3C6545-4FC2-425E-8DFB-3F9CA10A5B6E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/FBAppiumTouchActionsIntegrationTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "202"
+            endingLineNumber = "202"
+            landmarkName = "-testDoubleTap"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A67B2183-873A-412E-994A-B27720C2418E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentTests/IntegrationTests/FBAppiumTouchActionsIntegrationTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "205"
+            endingLineNumber = "205"
+            landmarkName = "-testDoubleTap"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE20D7A7-3C67-4C31-85B8-D02D40D46601"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBElementCommands.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "426"
+            endingLineNumber = "426"
+            landmarkName = "+handleClick:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E46178A9-5EFD-4965-91AB-364ADA8CE46F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Commands/FBElementCommands.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "425"
+            endingLineNumber = "425"
+            landmarkName = "+handleClick:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1330BD73-F66A-4723-B6C0-AF8222BAA4EC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBScreenshot.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
+            landmarkName = "+takeInOriginalResolutionWithScreenID:compressionQuality:uti:timeout:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE2F96A8-F0CF-4129-9288-D744D7907277"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBScreenshot.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "171"
+            endingLineNumber = "171"
+            landmarkName = "+takeInOriginalResolutionWithScreenID:compressionQuality:uti:timeout:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1517E88-C852-4A89-8E55-B5033DE234F8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBScreenshot.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "+takeInOriginalResolutionWithScreenID:compressionQuality:uti:timeout:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11A25DD1-E0F3-4EEF-8B6F-D75CEFE9685C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBScreenshot.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
+            landmarkName = "+takeInOriginalResolutionWithScreenID:compressionQuality:uti:timeout:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF1BCD4A-140B-4ED3-AC4D-4689CCA112C8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBScreenshot.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "205"
+            endingLineNumber = "205"
+            landmarkName = "+takeInOriginalResolutionWithScreenID:compressionQuality:uti:timeout:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6CC7F4A-A3C6-4A38-928C-738D616C9423"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBScreenshot.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "267"
+            endingLineNumber = "267"
+            landmarkName = "+screenshotRequestWithScreenID:rect:uti:compressionQuality:error:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B6CC7F4A-A3C6-4A38-928C-738D616C9423 - ca29c2af56bf8c7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[FBScreenshot screenshotRequestWithScreenID:rect:uti:compressionQuality:error:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Utilities/FBScreenshot.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "269"
+                  endingLineNumber = "269"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "B6CC7F4A-A3C6-4A38-928C-738D616C9423 - ca29c2af56bf8c7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[FBScreenshot screenshotRequestWithScreenID:rect:uti:compressionQuality:error:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Utilities/FBScreenshot.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "269"
+                  endingLineNumber = "269"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "B6CC7F4A-A3C6-4A38-928C-738D616C9423 - ca29c2af56bf8c3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[FBScreenshot screenshotRequestWithScreenID:rect:uti:compressionQuality:error:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Utilities/FBScreenshot.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "267"
+                  endingLineNumber = "267"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E560150D-0C6F-421A-BECC-4314936DF0D0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebDriverAgentLib/Utilities/FBScreenshot.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "264"
+            endingLineNumber = "264"
+            landmarkName = "+screenshotRequestWithScreenID:rect:uti:compressionQuality:error:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E560150D-0C6F-421A-BECC-4314936DF0D0 - ca29c2af56bf8ddd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[FBScreenshot screenshotRequestWithScreenID:rect:uti:compressionQuality:error:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Utilities/FBScreenshot.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "266"
+                  endingLineNumber = "266"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "E560150D-0C6F-421A-BECC-4314936DF0D0 - ca29c2af56bf8ddd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[FBScreenshot screenshotRequestWithScreenID:rect:uti:compressionQuality:error:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Utilities/FBScreenshot.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "266"
+                  endingLineNumber = "266"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "E560150D-0C6F-421A-BECC-4314936DF0D0 - ca29c2af56bf8d9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[FBScreenshot screenshotRequestWithScreenID:rect:uti:compressionQuality:error:]"
+                  moduleName = "WebDriverAgentLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazuaki/GitHub/WebDriverAgent/WebDriverAgentLib/Utilities/FBScreenshot.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "264"
+                  endingLineNumber = "264"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

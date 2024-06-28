@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1719589323766' stop='1719589341952'>
+    <name>Login</name>
+    <title>Login</title>
+    <test-cases>
+        <test-case start='1719589323783' status='passed' stop='1719589341951'>
+            <name>Iniciar sesión con credenciales válidas en la aplicacion IPSA</name>
+            <title>Iniciar sesión con credenciales válidas en la aplicacion IPSA</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Login'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel 4 API 31 12-12'/>
+            </parameters>
+            <steps>
+                <step start='1719589323786' status='passed' stop='1719589329171'>
+                    <name>Given I validate the text Consulta tus inversiones en todo momento</name>
+                    <title>Given I validate the text Consulta tus inversiones en todo momento</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='dcbd19fa-93e6-4dfb-84ca-644abefe129d-attachment.png' type='image/png' size='115473'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1719589329171' status='passed' stop='1719589330545'>
+                    <name>When I press the jump button</name>
+                    <title>When I press the jump button</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1e36618c-cfbc-4b66-8a5f-e89dcef3f797-attachment.png' type='image/png' size='143406'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1719589330545' status='passed' stop='1719589331395'>
+                    <name>And I tap on the Acceso Clientes button</name>
+                    <title>And I tap on the Acceso Clientes button</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7f9ba369-184b-4ef0-a2b5-c48641179619-attachment.png' type='image/png' size='143406'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1719589331395' status='passed' stop='1719589332405'>
+                    <name>And I tap on the Iniciar sesion button</name>
+                    <title>And I tap on the Iniciar sesion button</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ffcf664c-24ce-4b8d-b81c-a9edc9b872e0-attachment.png' type='image/png' size='326511'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1719589332405' status='passed' stop='1719589338106'>
+                    <name>And I login with my credentials Usuario "40220596098" and Contraseña "Pass@1234"</name>
+                    <title>And I login with my credentials Usuario "40220596098" and Contraseña "Pass@1234"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='bba63087-5600-4726-8168-3dd8d92f6573-attachment.png' type='image/png' size='194275'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1719589338106' status='passed' stop='1719589338356'>
+                    <name>Then I should see the dashboard</name>
+                    <title>Then I should see the dashboard</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c145b603-2b73-4c0b-915b-9a1985557a02-attachment.png' type='image/png' size='195646'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

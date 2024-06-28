@@ -1,0 +1,7 @@
+/// <reference types="node" />
+import type { HookFnArgs, SpecArguments } from './types';
+export declare const runHook: (this: unknown, hookFn: Function, origFn: Function, beforeFn: Function | Function[], beforeFnArgs: HookFnArgs<unknown>, afterFn: Function | Function[], afterFnArgs: HookFnArgs<unknown>, cid: string, repeatTest: number) => any;
+export declare const runSpec: (this: unknown, specTitle: string, specFn: Function, origFn: Function, beforeFn: Function | Function[], beforeFnArgs: HookFnArgs<unknown>, afterFn: Function | Function[], afterFnArgs: HookFnArgs<unknown>, cid: string, repeatTest: number) => any;
+export declare const wrapTestFunction: (this: unknown, origFn: Function, isSpec: boolean, beforeFn: Function | Function[], beforeArgsFn: HookFnArgs<unknown>, afterFn: Function | Function[], afterArgsFn: HookFnArgs<unknown>, cid: string) => (...specArguments: SpecArguments) => any;
+export declare const runTestInFiberContext: (this: unknown, isSpec: boolean, beforeFn: Function | Function[], beforeArgsFn: HookFnArgs<unknown>, afterFn: Function | Function[], afterArgsFn: HookFnArgs<unknown>, fnName: string, cid: string, scope?: NodeJS.Global & typeof globalThis) => void;
+//# sourceMappingURL=testInterfaceWrapper.d.ts.map

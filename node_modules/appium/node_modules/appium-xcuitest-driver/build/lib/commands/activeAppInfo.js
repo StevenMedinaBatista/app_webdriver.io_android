@@ -1,0 +1,23 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.commands = void 0;
+
+require("source-map-support/register");
+
+const extensions = {},
+      commands = {};
+exports.commands = commands;
+
+commands.mobileGetActiveAppInfo = async function mobileGetActiveAppInfo() {
+  return await this.proxyCommand('/wda/activeAppInfo', 'GET');
+};
+
+Object.assign(extensions, commands);
+var _default = extensions;
+exports.default = _default;require('source-map-support').install();
+
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxpYi9jb21tYW5kcy9hY3RpdmVBcHBJbmZvLmpzIl0sIm5hbWVzIjpbImV4dGVuc2lvbnMiLCJjb21tYW5kcyIsIm1vYmlsZUdldEFjdGl2ZUFwcEluZm8iLCJwcm94eUNvbW1hbmQiLCJPYmplY3QiLCJhc3NpZ24iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUFBLE1BQU1BLFVBQVUsR0FBRyxFQUFuQjtBQUFBLE1BQXVCQyxRQUFRLEdBQUcsRUFBbEM7OztBQVFBQSxRQUFRLENBQUNDLHNCQUFULEdBQWtDLGVBQWVBLHNCQUFmLEdBQXlDO0FBQ3pFLFNBQU8sTUFBTSxLQUFLQyxZQUFMLENBQWtCLG9CQUFsQixFQUF3QyxLQUF4QyxDQUFiO0FBQ0QsQ0FGRDs7QUFJQUMsTUFBTSxDQUFDQyxNQUFQLENBQWNMLFVBQWQsRUFBMEJDLFFBQTFCO2VBRWVELFUiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBleHRlbnNpb25zID0ge30sIGNvbW1hbmRzID0ge307XG5cbi8qKlxuICogUmV0dXJucyBBY3RpdmVBcHAgaW5mby5cbiAqXG4gKiBAcmV0dXJucyB7T2JqZWN0fSBUaGUgcmVzcG9uc2Ugb2YgYC93ZGEvYWN0aXZlQXBwSW5mbydgXG4gKiBAdGhyb3dzIHtFcnJvcn0gaWYgYW4gZXJyb3IgcmFpc2VkIGJ5IGNvbW1hbmRcbiAqL1xuY29tbWFuZHMubW9iaWxlR2V0QWN0aXZlQXBwSW5mbyA9IGFzeW5jIGZ1bmN0aW9uIG1vYmlsZUdldEFjdGl2ZUFwcEluZm8gKCkge1xuICByZXR1cm4gYXdhaXQgdGhpcy5wcm94eUNvbW1hbmQoJy93ZGEvYWN0aXZlQXBwSW5mbycsICdHRVQnKTtcbn07XG5cbk9iamVjdC5hc3NpZ24oZXh0ZW5zaW9ucywgY29tbWFuZHMpO1xuZXhwb3J0IHsgY29tbWFuZHMgfTtcbmV4cG9ydCBkZWZhdWx0IGV4dGVuc2lvbnM7XG4iXSwiZmlsZSI6ImxpYi9jb21tYW5kcy9hY3RpdmVBcHBJbmZvLmpzIiwic291cmNlUm9vdCI6Ii4uLy4uLy4uIn0=
