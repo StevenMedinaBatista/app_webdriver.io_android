@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Jun 28 11:42:03 AST 2024","Fri Jun 28 11:42:21 AST 2024","18168","","Login","","Login","Iniciar sesión con credenciales válidas en la aplicacion IPSA","Iniciar sesión con credenciales válidas en la aplicacion IPSA",""
+"passed","Thu Jul 25 16:18:40 AST 2024","Thu Jul 25 16:18:49 AST 2024","8877","","Splash Screens - Android","","Splash Screens - Android","Skip Splash","Skip Splash",""

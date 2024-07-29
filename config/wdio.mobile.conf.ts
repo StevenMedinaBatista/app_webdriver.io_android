@@ -1,5 +1,5 @@
 
-const waitforTimeout = 50000;
+const waitforTimeout = 20000;
 const commandTimeout = 3000;
 
 export const config: WebdriverIO.Config = {
@@ -60,10 +60,10 @@ export const config: WebdriverIO.Config = {
     capabilities: [{
         maxInstances: 1,
         platformName: 'Android',
-        platformVersion: '12',
-        app: 'app/app-ipsa-apk-24-062024.apk',
+        platformVersion: '13.0',
+        app: 'app/app-debug_IPSA_SM_24-07-24.apk',
         appPackage: 'com.inversionespopular.ipsa',
-        deviceName:  'Pixel 4 API 31',
+        deviceName:  'Pixel 8',
         automationName: 'UiAutomator2',
         autoGrantPermissions: true,
         autoAcceptAlerts: true,

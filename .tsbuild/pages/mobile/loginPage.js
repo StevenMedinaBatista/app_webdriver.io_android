@@ -50,12 +50,14 @@ class LoginPage extends page_1.default {
         await driver.pause(1000);
         await this.lbl_Usuario.addValue(username);
         await this.lbl_Contrasena.addValue(password);
-        await this.btn_Iniciar_sesion.click();
-        await browser.pause(4000);
+        await driver.pause(2000);
+        await this.btn_ini.click();
+        await driver.pause(6000);
     }
     async loginDashboard() {
         console.log("I see the dashboard");
-        await driver.pause(2000);
+        await driver.pause(4000);
+        await browser.pause(500);
     }
 }
 exports.default = new LoginPage();

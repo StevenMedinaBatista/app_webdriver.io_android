@@ -68,21 +68,22 @@ class LoginPage extends Page {
         console.log("Preciono el boton Iniciar sesion")
     }
 
-    async inputCredentials( username: string, password: string){
+    async inputCredentials( username: number, password: string){
         console.log("Input credentials: " + username + " " + password);
         await driver.pause(1000);
-
-
-        //await this.lbl_Usuario.click()
         await this.lbl_Usuario.addValue(username);
         await this.lbl_Contrasena.addValue(password);
-        await this.btn_Iniciar_sesion.click();
-        await browser.pause(4000)
+        await driver.pause(2000)
+        await this.btn_ini.click();
+        await driver.pause(6000)
+        
+
     }
 
     async loginDashboard(){
         console.log("I see the dashboard");
-        await driver.pause(2000)
+        await driver.pause(4000)
+        await browser.pause(500)
     }
     
 }
