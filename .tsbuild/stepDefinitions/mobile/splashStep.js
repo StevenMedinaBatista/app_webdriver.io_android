@@ -7,6 +7,7 @@ const cucumber_1 = require("@cucumber/cucumber");
 const splashPage_1 = __importDefault(require("../../pages/mobile/splashPage"));
 (0, cucumber_1.Given)('the mobile application is started for the first time', async () => {
     console.log("Primera pantalla de la app");
+    await driver.pause(3000);
     await splashPage_1.default.login();
 });
 (0, cucumber_1.When)('user press the {string} button', async (button) => {

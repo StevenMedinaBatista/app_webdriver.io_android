@@ -9,6 +9,7 @@ import SplashPage from "../../pages/mobile/splashPage";
 
 Given('the mobile application is started for the first time', async () => {
     console.log("Primera pantalla de la app")
+    await driver.pause(3000)
     await SplashPage.login();
 });
   
