@@ -2,14 +2,18 @@
  * Author: Steven Medina Batista.
  */
 
-import { Given, When, Then, setDefaultTimeout } from "@cucumber/cucumber";
+import { Before, Given, When, Then, setDefaultTimeout } from "@cucumber/cucumber";
 import HomePage from "../../pages/mobile/homePage";
 import LoginPage from "../../pages/mobile/loginPage";
 import SplashPage from "../../pages/mobile/splashPage";
 
+Before(async () => {
+    await driver.reset();
+});
+
 Given('the mobile application is started for the first time', async () => {
     console.log("Primera pantalla de la app")
-    await driver.pause(3000)
+    //await browser.pause(5000);
     await SplashPage.login();
 });
   
@@ -31,6 +35,7 @@ Then('the important information screens are skipped and the user sent to splash_
 
 When('the 10 seconds of the display are over', async () => {
     await SplashPage.waitForTimeout(1000);
+    //await SplashPage.verifyScreenChange();
 });
 
 Then('the screen change to the next and repeat the cycle until reaching the last splash screen', async () => {
@@ -47,4 +52,23 @@ When('user swipe the creen to left or right', async () => {
 
 Then('the screen change to the next', async () => {
     await SplashPage.verifyScreenChange();
+});
+
+// Sugerir un cambio en el enunciado, por the user is sent to the splash_end
+Then('the user is located on the last screen of the splash', async () => {
+    await SplashPage.login();
+    await SplashPage.swipeScreen();
+    await SplashPage.verifyThirdSplashScreen();
+});
+
+Then('the position indicator {string} is in the last position', async (indicator: string) => {
+    await SplashPage.verifyPositionIndicator(indicator);
+});
+
+Then('the user is sent to the splash_end', async () => {
+    await SplashPage.verifySplashEnd();
+});
+
+Then('the user is sent to the application_form_info', async () => {
+    await SplashPage.verifyApplicationFormInfo();
 });

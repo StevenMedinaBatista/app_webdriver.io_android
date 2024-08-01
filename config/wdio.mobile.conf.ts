@@ -1,5 +1,5 @@
 
-const waitforTimeout = 20000;
+const waitforTimeout = 50000;
 const commandTimeout = 3000;
 
 export const config: WebdriverIO.Config = {

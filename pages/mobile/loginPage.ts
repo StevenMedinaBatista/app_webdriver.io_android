@@ -13,6 +13,8 @@ class LoginPage extends Page {
     get lbl_Usuario() { return $('//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.widget.EditText[1]') }
     get lbl_Contrasena() { return $('//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.widget.EditText[2]') }
     get btn_ini() { return $('//android.widget.TextView[@text="Iniciar sesión"]') }
+    get btn_Continuar() { return $('//android.widget.TextView[@text="Continuar"]') }
+    
     
     
 
@@ -61,6 +63,13 @@ class LoginPage extends Page {
         await this.btn_Acceso_clientes.click();
         console.log("Preciono el boton Acceso Cliente")
     }
+
+    async tabContinuar(): Promise<void> {
+        await driver.pause(500);
+        await this.btn_Continuar.click();
+        console.log("Preciono el boton Acceso Cliente")
+    }
+
 
     async tabIniciarSesion(): Promise<void> {
         await driver.pause(500);

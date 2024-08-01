@@ -14,7 +14,7 @@ const loginPage_1 = __importDefault(require("../../pages/mobile/loginPage"));
     await loginPage_1.default.tabSaltar();
 });
 (0, cucumber_1.When)('I navigate to the login screen', async () => {
-    await loginPage_1.default.tabAccesoClientes();
+    await loginPage_1.default.tabContinuar();
     await loginPage_1.default.tabIniciarSesion();
 });
 (0, cucumber_1.When)(/^I login with my credentials Usuario "(\d{11})" and Contraseña "([^"]+)"$/, async (username, password) => {

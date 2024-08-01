@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.config = void 0;
-const waitforTimeout = 20000;
+const waitforTimeout = 50000;
 const commandTimeout = 3000;
 exports.config = {
     runner: 'local',

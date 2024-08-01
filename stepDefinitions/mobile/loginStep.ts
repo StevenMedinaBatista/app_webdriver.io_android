@@ -18,7 +18,7 @@ When('I press the jump button', async () => {
 });
 
 When('I navigate to the login screen', async() => {
-  await LoginPage.tabAccesoClientes();
+  await LoginPage.tabContinuar();
   await LoginPage.tabIniciarSesion();
 });
 

@@ -1,2 +1,6 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Jul 25 16:18:40 AST 2024","Thu Jul 25 16:18:49 AST 2024","8877","","Splash Screens - Android","","Splash Screens - Android","Skip Splash","Skip Splash",""
+"failed","Thu Aug 01 14:03:48 AST 2024","Thu Aug 01 14:04:04 AST 2024","16302","","Login","","Login","Hazte inversionista Button","Hazte inversionista Button",""
+"passed","Thu Aug 01 14:03:33 AST 2024","Thu Aug 01 14:03:48 AST 2024","14976","","Login","","Login","Swipe splash","Swipe splash",""
+"passed","Thu Aug 01 14:03:05 AST 2024","Thu Aug 01 14:03:17 AST 2024","12542","","Login","","Login","Skip Splash","Skip Splash",""
+"passed","Thu Aug 01 14:02:38 AST 2024","Thu Aug 01 14:03:05 AST 2024","26645","","Login","","Login","Iniciar sesión con credenciales válidas en la aplicacion IPSA","Iniciar sesión con credenciales válidas en la aplicacion IPSA",""
+"passed","Thu Aug 01 14:03:17 AST 2024","Thu Aug 01 14:03:33 AST 2024","15748","","Login","","Login","Time is over Splash","Time is over Splash",""

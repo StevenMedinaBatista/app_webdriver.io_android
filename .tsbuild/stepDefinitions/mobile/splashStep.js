@@ -5,9 +5,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const cucumber_1 = require("@cucumber/cucumber");
 const splashPage_1 = __importDefault(require("../../pages/mobile/splashPage"));
+(0, cucumber_1.Before)(async () => {
+    await driver.reset();
+});
 (0, cucumber_1.Given)('the mobile application is started for the first time', async () => {
     console.log("Primera pantalla de la app");
-    await driver.pause(3000);
     await splashPage_1.default.login();
 });
 (0, cucumber_1.When)('user press the {string} button', async (button) => {
@@ -36,4 +38,18 @@ const splashPage_1 = __importDefault(require("../../pages/mobile/splashPage"));
 });
 (0, cucumber_1.Then)('the screen change to the next', async () => {
     await splashPage_1.default.verifyScreenChange();
+});
+(0, cucumber_1.Then)('the user is located on the last screen of the splash', async () => {
+    await splashPage_1.default.login();
+    await splashPage_1.default.swipeScreen();
+    await splashPage_1.default.verifyThirdSplashScreen();
+});
+(0, cucumber_1.Then)('the position indicator {string} is in the last position', async (indicator) => {
+    await splashPage_1.default.verifyPositionIndicator(indicator);
+});
+(0, cucumber_1.Then)('the user is sent to the splash_end', async () => {
+    await splashPage_1.default.verifySplashEnd();
+});
+(0, cucumber_1.Then)('the user is sent to the application_form_info', async () => {
+    await splashPage_1.default.verifyApplicationFormInfo();
 });
