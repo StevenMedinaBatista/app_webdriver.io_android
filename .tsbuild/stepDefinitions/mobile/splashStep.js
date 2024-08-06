@@ -53,3 +53,9 @@ const splashPage_1 = __importDefault(require("../../pages/mobile/splashPage"));
 (0, cucumber_1.Then)('the user is sent to the application_form_info', async () => {
     await splashPage_1.default.verifyApplicationFormInfo();
 });
+(0, cucumber_1.Then)('the user is sent to the Welcome_Screen', async () => {
+    await splashPage_1.default.verifyWelcomeScreen();
+});
+(0, cucumber_1.Then)('the user is sent to the login_password_screen', async () => {
+    await splashPage_1.default.verifyLoginPasswordScreen();
+});

@@ -8,6 +8,7 @@ const commonsPage_1 = __importDefault(require("./commonsPage"));
 class LoginPage extends page_1.default {
     get txt_consulta_tus_inversiones_En_TodoMomento() { return $('//android.widget.TextView[@text="¡Consulta tus inversiones en todo momento!"]'); }
     get txt_da_seguimiento_a_tu_portafolio() { return $('//android.widget.TextView[@text="Da seguimiento a tu portafolio de inversión desde donde te encuentres."]'); }
+    get txt_BienvenidoAlMundoDigital() { return $('//android.widget.TextView[@text="¡Bienvenido al mundo digital del mercado de valores!"]'); }
     get btn_Saltar() { return $('//android.widget.TextView[@text="Saltar"]'); }
     get btn_Continuar() { return $('//android.widget.TextView[@text="Continuar"]'); }
     get btn_Registrate() { return $('//android.widget.TextView[@text="Regístrate"]'); }
@@ -15,6 +16,8 @@ class LoginPage extends page_1.default {
     get btn_Contactanos() { return $('//android.widget.TextView[@text="Contáctanos"]'); }
     get txt_thirdSplash() { return $('//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View[1]/android.widget.TextView[1]'); }
     get btn_IniciarSesion() { return $('//android.widget.TextView[@text="Iniciar sesión"]'); }
+    get lbl_Usuario() { return $('//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.widget.EditText[1]'); }
+    get lbl_Contrasena() { return $('//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.widget.EditText[2]'); }
     async validate() {
         console.log("Validate Login");
         const iniciarSesion_button = "Iniciar sesión";
@@ -73,6 +76,13 @@ class LoginPage extends page_1.default {
     }
     async verifyApplicationFormInfo() {
         await expect(this.btn_Contactanos).toBeDisplayed();
+    }
+    async verifyWelcomeScreen() {
+        await expect(this.txt_BienvenidoAlMundoDigital).toBeDisplayed();
+    }
+    async verifyLoginPasswordScreen() {
+        await expect(this.lbl_Contrasena).toBeDisplayed();
+        await expect(this.lbl_Usuario).toBeDisplayed();
     }
     async verifySplashEndScreen(buttons) {
         const buttonSelectors = {

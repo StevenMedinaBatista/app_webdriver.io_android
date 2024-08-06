@@ -1,3 +1,6 @@
+/**
+ * Author: Steven Medina Batista.
+ */
 
 import HomePage from "../../pages/mobile/homePage";
 import { Given, When, Then, setDefaultTimeout } from "@cucumber/cucumber";

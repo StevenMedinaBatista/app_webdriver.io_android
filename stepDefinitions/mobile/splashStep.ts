@@ -72,3 +72,11 @@ Then('the user is sent to the splash_end', async () => {
 Then('the user is sent to the application_form_info', async () => {
     await SplashPage.verifyApplicationFormInfo();
 });
+
+Then('the user is sent to the Welcome_Screen', async () => {
+    await SplashPage.verifyWelcomeScreen();
+});
+
+Then('the user is sent to the login_password_screen', async () => {
+    await SplashPage.verifyLoginPasswordScreen();
+});
