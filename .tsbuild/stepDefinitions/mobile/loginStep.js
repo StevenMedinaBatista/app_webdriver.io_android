@@ -23,3 +23,5 @@ const loginPage_1 = __importDefault(require("../../pages/mobile/loginPage"));
 (0, cucumber_1.Then)('I should see the dashboard', async () => {
     await loginPage_1.default.loginDashboard();
 });
+(0, cucumber_1.Given)(/^I have logged in the app with my credentials Usuario \"([^\"]*)\" and Contraseña \"([^\"]*)\" and token \"([^\"]*)\"$/, { timeout: 2 * 60000 }, async (username, password, token) => {
+});

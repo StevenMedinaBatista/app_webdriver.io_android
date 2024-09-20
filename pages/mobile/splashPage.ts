@@ -1,7 +1,7 @@
 import Page from './page';
 import commonsPage from './commonsPage';
 
-class LoginPage extends Page {  
+class splashPage extends Page {  
 
     get txt_consulta_tus_inversiones_En_TodoMomento() { return $('//android.widget.TextView[@text="¡Consulta tus inversiones en todo momento!"]') }
     //get txt_accede_de_forma_rapida_y_segura() { return $('//android.widget.TextView[@text="Accede de forma rápida y segura"]') }
@@ -134,4 +134,4 @@ class LoginPage extends Page {
 
 }
 
-export default new LoginPage();
+export default new splashPage();

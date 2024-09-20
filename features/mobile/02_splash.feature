@@ -1,13 +1,4 @@
 @regression @Splash
-# Feature: Login
-#   @SuccessfulLogin @happypath
-# Scenario: Iniciar sesión con credenciales válidas en la aplicacion IPSA
-#   Given I validate the text Consulta tus inversiones en todo momento
-#   When I press the jump button
-#   And I navigate to the login screen
-#   And I login with my credentials Usuario "40220596098" and Contraseña "Pass@1234"
-#   Then I should see the dashboard
-
 Feature: Splash Screens - Android
 As a user I need four splash screens that will present important information about the APP
 

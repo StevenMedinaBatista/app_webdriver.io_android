@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const page_1 = __importDefault(require("./page"));
 const commonsPage_1 = __importDefault(require("./commonsPage"));
-class LoginPage extends page_1.default {
+class splashPage extends page_1.default {
     get txt_consulta_tus_inversiones_En_TodoMomento() { return $('//android.widget.TextView[@text="¡Consulta tus inversiones en todo momento!"]'); }
     get txt_da_seguimiento_a_tu_portafolio() { return $('//android.widget.TextView[@text="Da seguimiento a tu portafolio de inversión desde donde te encuentres."]'); }
     get txt_BienvenidoAlMundoDigital() { return $('//android.widget.TextView[@text="¡Bienvenido al mundo digital del mercado de valores!"]'); }
@@ -115,4 +115,4 @@ class LoginPage extends page_1.default {
         }
     }
 }
-exports.default = new LoginPage();
+exports.default = new splashPage();

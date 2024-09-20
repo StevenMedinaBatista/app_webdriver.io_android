@@ -31,9 +31,7 @@ Then('I should see the dashboard', async() => {
 
 });
 
-
-/**
- * NUEVO CODIGO A PARTIR DE LOS GHERKINS
- */
-
+Given(/^I have logged in the app with my credentials Usuario \"([^\"]*)\" and Contraseña \"([^\"]*)\" and token \"([^\"]*)\"$/,{ timeout: 2 * 60000 }, async (username: string, password: string, token: string) => {
+  
+});
 
