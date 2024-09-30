@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Application Information
 (This project was executed with apk, app, ipa generated from)
 Repository (link) [ipsa_webdriver.io_android](https://cohvsappbit01.corp.popular.local:8443/projects/BAP/repos/ipsa_webdriver.io_android/browse)
@@ -516,3 +517,8 @@ For our commits message we use [Conventional Commits](https://www.conventionalco
 4. Push to the branch (`git push origin type/####-description`)
 
 5. Create new Pull Request
+=======
+# Informaciones relevantes
+
+## Descripcion:
+>>>>>>> 2489a255b86212df622d6ddbd7525a6dd528bb4b
