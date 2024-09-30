@@ -1,0 +1,4 @@
+import type { WrapperMethods, SpecFunction, BeforeHookParam, AfterHookParam } from './types';
+export declare const testFnWrapper: (this: unknown, args_0: string, args_1: SpecFunction, args_2: BeforeHookParam<unknown>, args_3: AfterHookParam<unknown>, args_4: string, args_5: number) => Promise<unknown>;
+export declare const testFrameworkFnWrapper: (this: unknown, { executeHooksWithArgs, executeAsync, runSync }: WrapperMethods, type: string, { specFn, specFnArgs }: SpecFunction, { beforeFn, beforeFnArgs }: BeforeHookParam<unknown>, { afterFn, afterFnArgs }: AfterHookParam<unknown>, cid: string, repeatTest?: number) => Promise<unknown>;
+//# sourceMappingURL=testFnWrapper.d.ts.map

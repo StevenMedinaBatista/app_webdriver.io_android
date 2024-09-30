@@ -1,0 +1,46 @@
+trigger:
+  - develop
+
+pool:
+  vmImage: "macos-latest"
+
+steps:
+  - script: npm install
+    displayName: "NPM Install Dependencies"
+
+  - script: npm run clean-build
+    displayName: "NPM Clean & Build"
+
+  - script: |
+      echo "y" | $ANDROID_HOME/tools/bin/sdkmanager --install 'system-images;android-30;google_apis;x86'
+      echo "no" | $ANDROID_HOME/tools/bin/avdmanager create avd -n android_emulator -k 'system-images;android-30;google_apis;x86' --force --device 'Nexus 6'
+      nohup $ANDROID_HOME/emulator/emulator -avd android_emulator -no-cache -no-snapshot -wipe-data > /dev/null 2>&1 &
+      $ANDROID_HOME/platform-tools/adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed | tr -d '\r') ]]; do sleep 1; done; input keyevent 82'
+      adb devices
+      adb -s emulator-5554 install ./app/"$(ls ./app/)"
+      adb shell am start -n us.lynk.consumer/.MainActivity
+    displayName: "Setup Android Emulator"
+
+  - script: npm run start-mobile
+    displayName: "Start Automated Tests"
+
+  - script: |
+      npm run clean-report
+    condition: always()
+    displayName: "Create Allure Report"
+
+  - task: ArchiveFiles@2
+    displayName: "Compress Allure Report"
+    condition: always()
+    inputs:
+      rootFolderOrFile: "allure-report"
+      includeRootFolder: true
+      archiveType: "zip"
+      archiveFile: "allure-report/allure-report.zip"
+
+  - task: PublishPipelineArtifact@1
+    displayName: "Publish Allure Report"
+    condition: always()
+    inputs:
+      targetPath: "allure-report/allure-report.zip"
+      artifactName: allure-report
