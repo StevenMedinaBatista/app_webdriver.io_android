@@ -1,4 +1,4 @@
-@HamburgerMenu
+@regression @HamburgerMenu
 Feature: Hamburger Menu - Android
 
     Background:
