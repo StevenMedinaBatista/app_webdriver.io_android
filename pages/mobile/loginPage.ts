@@ -8,12 +8,14 @@ class LoginPage extends Page {
     get txt_da_seguimiento_a_tu_portafolio() { return $('//android.widget.TextView[@text="Da seguimiento a tu portafolio de inversión desde donde te encuentres."]') }
     
     get btn_Saltar() { return $('//android.widget.TextView[@text="Saltar"]') }
-    get btn_Acceso_clientes() { return $('//android.widget.TextView[@text="Acceso clientes"]') }
+    get btn_Acceso_clientes() { return $('//android.widget.TextView[@text="Continuar"]') }
     get btn_Iniciar_sesion() { return $('//android.widget.TextView[@text="Iniciar sesión"]') }
-    get lbl_Usuario() { return $('//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.widget.EditText[1]') }
-    get lbl_Contrasena() { return $('//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.widget.EditText[2]') }
+    get lbl_Usuario() { return $('//android.widget.TextView[@text="Usuario"]') }
+    get lbl_Contrasena() { return $('//android.widget.TextView[@text="Contraseña"]') }
     get btn_ini() { return $('//android.widget.TextView[@text="Iniciar sesión"]') }
     get btn_Continuar() { return $('//android.widget.TextView[@text="Continuar"]') }
+    get input_Usuario() { return $('//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[1]') }
+    get input_Contrasena() { return $('//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[2]') }
     
     
     
@@ -60,7 +62,7 @@ class LoginPage extends Page {
 
     async tabAccesoClientes(): Promise<void> {
         await driver.pause(500);
-        await this.btn_Acceso_clientes.click();
+        await this.btn_Continuar.click();
         console.log("Preciono el boton Acceso Cliente")
     }
 
@@ -77,16 +79,44 @@ class LoginPage extends Page {
         console.log("Preciono el boton Iniciar sesion")
     }
 
-    async inputCredentials( username: number, password: string){
+    async inputCredentials(username: string, password: string) {
         console.log("Input credentials: " + username + " " + password);
-        await driver.pause(1000);
-        await this.lbl_Usuario.addValue(username);
-        await this.lbl_Contrasena.addValue(password);
-        await driver.pause(2000)
-        await this.btn_ini.click();
-        await driver.pause(6000)
-        
+    
+        try {
+            // await expect(this.lbl_Usuario).toBeDisplayed();
+            // await expect(this.lbl_Contrasena).toBeDisplayed();
+            await expect(this.btn_ini).toBeDisplayed();
+    
+            await this.lbl_Usuario.click();
+            await driver.pause(300)
+            await this.input_Usuario.addValue(username);
 
+            await driver.pause(300)
+
+            await this.lbl_Contrasena.click();
+            await driver.pause(300)
+            await this.input_Contrasena.addValue(password);
+
+            await driver.hideKeyboard();
+
+            await this.btn_ini.click();
+    
+            await driver.pause(5000);
+    
+            const errorMessage = await $('//android.widget.TextView[@text="El usuario o la contraseña no son correctos"]');
+            if (await errorMessage.isDisplayed()) {
+                await browser.saveScreenshot('./error-screenshots/login-error.png');
+                throw new Error("Login failed: El usuario o la contraseña no son correctos");
+            }
+
+    
+            console.log("Login successful");
+        } catch (error) {
+            console.error("Error during login: ", error.message);
+    
+            // Relanza el error para que se registre como fallo
+            throw error;
+        }
     }
 
     async loginDashboard(){
