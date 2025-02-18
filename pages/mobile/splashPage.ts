@@ -14,8 +14,9 @@ class splashPage extends Page {
     get btn_Contactanos() { return $('//android.widget.TextView[@text="Contáctanos"]') }
     get txt_thirdSplash() { return $('//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View[1]/android.widget.TextView[1]') }
     get btn_IniciarSesion() { return $('//android.widget.TextView[@text="Iniciar sesión"]') }
-    get lbl_Usuario() { return $('//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.widget.EditText[1]') }
-    get lbl_Contrasena() { return $('//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.widget.EditText[2]') }
+    get lbl_Usuario() { return $('//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[1]') }
+    get lbl_Contrasena() { return $('//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[2]') }
+    get btn_Acceso_clientes() { return $('//android.widget.TextView[@text="Continuar"]') }
 
     async validate(): Promise<void> {
         console.log("Validate Login");
@@ -33,6 +34,12 @@ class splashPage extends Page {
         await expect(this.txt_da_seguimiento_a_tu_portafolio).toBeExisting();
         await expect(this.btn_Saltar).toBePresent();
         console.log("Preciono el boton Saltar");
+    }
+
+    async tabAccesoClientes(): Promise<void> {
+        await driver.pause(500);
+        await this.btn_Acceso_clientes.click();
+        console.log("Preciono el boton Acceso Cliente")
     }
 
     async pressButton(button: string) {
@@ -56,6 +63,10 @@ class splashPage extends Page {
             case 'Iniciar sesión':
                 await this.btn_IniciarSesion.click();
                 console.log("Preciono el boton Iniciar sesión");
+                break;
+            case 'Acceso clientes':
+                await this.btn_Acceso_clientes.click();
+                console.log("Preciono el boton Acceso clientes");
                 break;
             default:
                 throw new Error(`Button ${button} not found`);
