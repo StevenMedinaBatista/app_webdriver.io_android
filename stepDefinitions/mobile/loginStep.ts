@@ -22,7 +22,7 @@ When('I navigate to the login screen', async() => {
   await LoginPage.tabIniciarSesion();
 });
 
-When(/^I login with my credentials Usuario "(\d{11})" and Contraseña "([^"]+)"$/, async (username: number, password: string) => {
+When(/^I login with my credentials Usuario "(\d{11})" and Contraseña "([^"]+)"$/, async (username: string, password: string) => {
   await LoginPage.inputCredentials(username, password);
 });
 
