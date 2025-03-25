@@ -8,7 +8,10 @@ import LoginPage from "../../pages/mobile/loginPage";
 import SplashPage from "../../pages/mobile/splashPage";
 
 Before(async () => {
-    await driver.reset();
+    // Para reiniciar el app, ahora en las nuevas versiones de appium se recomienda cerrar y abrir en vez de reiniciar.
+    await driver.closeApp();
+    await driver.launchApp();
+
 });
 
 Given('the mobile application is started for the first time', async () => {

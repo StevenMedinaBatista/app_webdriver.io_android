@@ -8,7 +8,10 @@ import SplashPage from "../../pages/mobile/splashPage";
 import HamburgerMenu from "../../pages/mobile/03_hamburgerMenuPage"
 
 Before(async () => {
-    await driver.reset();
+    // Cierra y abre el app.
+    await driver.closeApp();
+    await driver.launchApp();
+
 });
 
 When('user clicks the close icon in the Login', async () => {
@@ -44,7 +47,7 @@ When('the user selects the "Terms and Conditions" option', async () => {
 })
 
 Then('the user is redirected to the "Terms and Conditions" screen', async () => {
-    await HamburgerMenu.validattionTermsAndConditionsResponsibilitiesAndPoliciesPrivacy();
+    await HamburgerMenu.validattionTermsAndConditions();
 })
 
 When('the user selects the "Responsibilities" option', async () => {
@@ -52,7 +55,7 @@ When('the user selects the "Responsibilities" option', async () => {
 })
 
 Then('the user is redirected to the "Responsibilities" screen', async () => {
-    await HamburgerMenu.validattionTermsAndConditionsResponsibilitiesAndPoliciesPrivacy();
+    await HamburgerMenu.validattionResponsibilities();
 })
 
 When('the user selects the "Policies and Privacy" option', async () => {
@@ -60,7 +63,7 @@ When('the user selects the "Policies and Privacy" option', async () => {
 })
 
 Then('the user is redirected to the "Policies and Privacy" screen', async () => {
-    await HamburgerMenu.validattionTermsAndConditionsResponsibilitiesAndPoliciesPrivacy();
+    await HamburgerMenu.tabAnValidationPoliciesAndPrivacy();
 })
 
 When('the user selects the "Services Tariff Chart" option', async () => {

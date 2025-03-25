@@ -9,7 +9,7 @@ Scenario: Skip Splash
   When user press the "Saltar" button
   Then the user is sent to third splash 
   And the position indicator "3 points" must change to the last location
-  When user press the "Continuar" button
+  When user press the "Acceso clientes" button
   Then the important information screens are skipped and the user sent to splash_end screen with the "Registrate", "Hazte inversionista" and "Iniciar sesion" buttons is displayed
 
 
@@ -37,7 +37,7 @@ Scenario: Hazte inversionista Button
   Given the mobile application is started for the first time
   And the user is located on the last screen of the splash
   And the position indicator "3 points" is in the last position
-  When user press the "Continuar" button
+  When user press the "Acceso clientes" button
   Then the user is sent to the splash_end 
   When user press the "Hazte inversionista" button
   Then the user is sent to the application_form_info
@@ -48,7 +48,7 @@ Scenario: Registrate Button
   Given the mobile application is started for the first time
   And the user is located on the last screen of the splash
   And the position indicator "3 points" is in the last position
-  When user press the "Continuar" button
+  When user press the "Acceso clientes" button
   Then the user is sent to the splash_end 
   When user press the "Registrate" button
   Then the user is sent to the Welcome_Screen
@@ -59,7 +59,7 @@ Scenario: Iniciar sesion Button
   Given the mobile application is started for the first time
   And the user is located on the last screen of the splash
   And the position indicator "3 points" is in the last position
-  When user press the "Continuar" button
+  When user press the "Acceso clientes" button
   Then the user is sent to the splash_end 
   When user press the "Iniciar sesión" button
   Then the user is sent to the login_password_screen

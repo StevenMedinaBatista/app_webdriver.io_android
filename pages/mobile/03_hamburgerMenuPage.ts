@@ -7,14 +7,15 @@ class LoginPage extends Page {
     get iconClose(){ return $('//android.widget.ImageView[@content-desc="icon_close"]')}
     get iconHamburgerMenu(){ return $('(//android.widget.ImageView[@content-desc="icon_close"])[1]')}
     get btn_IniciarSesion() { return $('//android.widget.TextView[@text="Iniciar sesión"]') }
-    get btn_Registrate() { return $('//android.widget.TextView[@text="¿Aún no te has registrado? Regístrate"]') }
+    get btn_Registrate2() { return $('//android.widget.TextView[@text="¿Aún no te has registrado? Regístrate"]') }
+    get btn_Registrate() { return $('//android.widget.TextView[@text="¿Aún no te has registrado?"]') }
     get btn_HazteInversionista() { return $('//android.widget.TextView[@text="Hazte inversionista"]') }
     get HamburgerMenu() { return $('//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View') }
     get txt_ProteccionAlUsuario() { return $('-android uiautomator:new UiSelector().text(\"PROTECCIÓN AL USUARIO\")') }
     get txt_Servicios() { return $('//android.widget.TextView[@text="SERVICIOS"]') }
     get txt_Seguridad() { return $('//android.widget.TextView[@text="SEGURIDAD"]') }
     get btn_TerminosYcondiciones() { return $('//android.widget.TextView[@text="Términos y condiciones"]') }
-    get page_TerminosYcondiciones() { return $('//android.webkit.WebView') }
+    // get page_TerminosYcondiciones() { return $('//android.webkit.WebView') }
     get btn_Responsabilidades() { return $('//android.widget.TextView[@text="Responsabilidades"]') }
     get btn_PoliticasDePrivacidad() { return $('//android.widget.TextView[@text="Políticas de privacidad"]') }
     get btn_TarifarioDeServicios() { return $('//android.widget.TextView[@text="Tarifario de servicios"]') }
@@ -113,8 +114,16 @@ class LoginPage extends Page {
         await expect(this.btn_Cancelar).toBeDisplayed();
     }
     
-    async validattionTermsAndConditionsResponsibilitiesAndPoliciesPrivacy(): Promise<void> {
-        await expect(this.page_TerminosYcondiciones).toBeDisplayed();
+    async validattionTermsAndConditions(): Promise<void> {
+        await expect(this.btn_TerminosYcondiciones).toBeDisplayed();
+    }
+
+    async validattionResponsibilities(): Promise<void> {
+        await expect(this.btn_Responsabilidades).toBeDisplayed();
+    }
+
+    async validattionPoliciesPrivacy(): Promise<void> {
+        await expect(this.btn_PoliticasDePrivacidad).toBeDisplayed();
     }
     
     async validattiontitleEnInversionesPopularTeLeemos(): Promise<void> {

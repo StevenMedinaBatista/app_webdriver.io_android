@@ -60,10 +60,10 @@ export const config: WebdriverIO.Config = {
     capabilities: [{
         maxInstances: 1,
         platformName: 'Android',
-        platformVersion: '12.0',
-        app: 'app/app-debug_IPSA_SM_24-07-24.apk',
+        platformVersion: '15.0',
+        app: 'app/ipsa-1.1.250303.apk',
         appPackage: 'com.inversionespopular.ipsa',
-        deviceName:  'Medium Phone',
+        deviceName:  'Pixel 9 Pro',
         automationName: 'UiAutomator2',
         autoGrantPermissions: true,
         autoAcceptAlerts: true,
