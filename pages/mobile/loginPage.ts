@@ -16,6 +16,7 @@ class LoginPage extends Page {
     get btn_Continuar() { return $('//android.widget.TextView[@text="Continuar"]') }
     get input_Usuario() { return $('//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[1]') }
     get input_Contrasena() { return $('//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[2]') }
+    get txt_usuarioOcontrasenaNoSonCorrectos() { return $('//android.widget.TextView[@text="El usuario o la contraseña no son correctos"]') }
     
     
     
@@ -79,7 +80,7 @@ class LoginPage extends Page {
         console.log("Preciono el boton Iniciar sesion")
     }
 
-    async inputCredentials(username: string, password: string) {
+    async inputCredentials(username: string, password: string): Promise<void>  {
         console.log("Input credentials: " + username + " " + password);
     
         try {
@@ -119,10 +120,39 @@ class LoginPage extends Page {
         }
     }
 
-    async loginDashboard(){
+    async inputIncorrectCredentials(username: string, password: string): Promise<void>  {
+        console.log("Input credentials: " + username + " " + password);
+    
+            await expect(this.btn_ini).toBeDisplayed();
+    
+            await this.lbl_Usuario.click();
+            await driver.pause(300)
+            await this.input_Usuario.addValue(username);
+
+            await driver.pause(300)
+
+            await this.lbl_Contrasena.click();
+            await driver.pause(300)
+            await this.input_Contrasena.addValue(password);
+
+            await driver.hideKeyboard();
+
+            await this.btn_ini.click();            
+    
+    }
+
+    async loginDashboard(): Promise<void>  {
         console.log("I see the dashboard");
         await driver.pause(4000)
         await browser.pause(500)
+    }
+
+    async validarCredencialesIncorrectas(expectedMessage: string): Promise<void> {
+        const errorMessageElement = await this.txt_usuarioOcontrasenaNoSonCorrectos;
+        await errorMessageElement.waitForDisplayed(); // Esperar a que se muestre el mensaje
+        const actualMessage = await errorMessageElement.getText(); // Obtener el texto del mensaje
+        console.log(`🔍 Mensaje esperado: "${expectedMessage}", Mensaje real: "${actualMessage}"`);
+        expect(actualMessage.trim()).toEqual(expectedMessage); // Comparar ambos mensajes
     }
     
 }

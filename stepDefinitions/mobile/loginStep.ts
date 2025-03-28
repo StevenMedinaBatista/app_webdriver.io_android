@@ -26,6 +26,9 @@ When(/^I login with my credentials Usuario "([\d\-]+)" and Contraseña "([^"]+)"
   await LoginPage.inputCredentials(username.replace(/-/g, ''), password);
 });
 
+When(/^I input my invalid credentials Usuario "(\d+)" and Contraseña "([^"]+)"$/, async (username: string, password: string) => {
+  await LoginPage.inputIncorrectCredentials(username, password);
+});
 
 Then('I should see the dashboard', async() => {
   await LoginPage.loginDashboard();
@@ -36,3 +39,6 @@ Given(/^I have logged in the app with my credentials Usuario \"([^\"]*)\" and Co
   
 });
 
+Then(/^I should see the message "([^"]+)"$/, async (expectedMessage: string) => {
+  await LoginPage.validarCredencialesIncorrectas(expectedMessage);
+});

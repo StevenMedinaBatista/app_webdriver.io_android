@@ -20,8 +20,14 @@ const loginPage_1 = __importDefault(require("../../pages/mobile/loginPage"));
 (0, cucumber_1.When)(/^I login with my credentials Usuario "([\d\-]+)" and Contraseña "([^"]+)"$/, async (username, password) => {
     await loginPage_1.default.inputCredentials(username.replace(/-/g, ''), password);
 });
+(0, cucumber_1.When)(/^I input my invalid credentials Usuario "(\d+)" and Contraseña "([^"]+)"$/, async (username, password) => {
+    await loginPage_1.default.inputIncorrectCredentials(username, password);
+});
 (0, cucumber_1.Then)('I should see the dashboard', async () => {
     await loginPage_1.default.loginDashboard();
 });
 (0, cucumber_1.Given)(/^I have logged in the app with my credentials Usuario \"([^\"]*)\" and Contraseña \"([^\"]*)\" and token \"([^\"]*)\"$/, { timeout: 2 * 60000 }, async (username, password, token) => {
+});
+(0, cucumber_1.Then)(/^I should see the message "([^"]+)"$/, async (expectedMessage) => {
+    await loginPage_1.default.validarCredencialesIncorrectas(expectedMessage);
 });

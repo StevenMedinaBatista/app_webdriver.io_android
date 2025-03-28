@@ -15,7 +15,7 @@ exports.config = {
             maxInstances: 1,
             platformName: 'Android',
             platformVersion: '15.0',
-            app: 'app/ipsa-1.1.250303.apk',
+            app: 'app/ipsa-1.1.250304.apk',
             appPackage: 'com.inversionespopular.ipsa',
             deviceName: 'Pixel 9 Pro',
             automationName: 'UiAutomator2',

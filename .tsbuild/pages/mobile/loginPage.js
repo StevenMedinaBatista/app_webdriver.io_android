@@ -17,6 +17,7 @@ class LoginPage extends page_1.default {
     get btn_Continuar() { return $('//android.widget.TextView[@text="Continuar"]'); }
     get input_Usuario() { return $('//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[1]'); }
     get input_Contrasena() { return $('//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[2]'); }
+    get txt_usuarioOcontrasenaNoSonCorrectos() { return $('//android.widget.TextView[@text="El usuario o la contraseña no son correctos"]'); }
     async validate() {
         console.log("Validate Login");
         const iniciarSesion_button = "Iniciar sesión";
@@ -79,10 +80,30 @@ class LoginPage extends page_1.default {
             throw error;
         }
     }
+    async inputIncorrectCredentials(username, password) {
+        console.log("Input credentials: " + username + " " + password);
+        await expect(this.btn_ini).toBeDisplayed();
+        await this.lbl_Usuario.click();
+        await driver.pause(300);
+        await this.input_Usuario.addValue(username);
+        await driver.pause(300);
+        await this.lbl_Contrasena.click();
+        await driver.pause(300);
+        await this.input_Contrasena.addValue(password);
+        await driver.hideKeyboard();
+        await this.btn_ini.click();
+    }
     async loginDashboard() {
         console.log("I see the dashboard");
         await driver.pause(4000);
         await browser.pause(500);
+    }
+    async validarCredencialesIncorrectas(expectedMessage) {
+        const errorMessageElement = await this.txt_usuarioOcontrasenaNoSonCorrectos;
+        await errorMessageElement.waitForDisplayed();
+        const actualMessage = await errorMessageElement.getText();
+        console.log(`🔍 Mensaje esperado: "${expectedMessage}", Mensaje real: "${actualMessage}"`);
+        expect(actualMessage.trim()).toEqual(expectedMessage);
     }
 }
 exports.default = new LoginPage();
