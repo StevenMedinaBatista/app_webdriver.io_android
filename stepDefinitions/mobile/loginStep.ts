@@ -6,10 +6,21 @@ import { Given, When, Then, setDefaultTimeout } from "@cucumber/cucumber";
 import HomePage from "../../pages/mobile/homePage";
 import LoginPage from "../../pages/mobile/loginPage";
 import SplashPage from "../../pages/mobile/splashPage";
+import DashboardPage from "../../pages/mobile/04_dashboardPage";
 
 Given('I validate the text Consulta tus inversiones en todo momento', async () => {
   console.log("Primera pantalla de la app")
   await LoginPage.login();
+});
+
+Given(/^I have logged in the app with my credentials Usuario "([\d\-]+)" and Contraseña "([^"]+)"$/,{ timeout: 2 * 60000 }, async (username: string, password: string) => {
+  await LoginPage.login();
+  await LoginPage.tabSaltar();
+  await LoginPage.tabAccesoClientes();
+  await LoginPage.tabIniciarSesion();
+  await LoginPage.inputCredentials(username.replace(/-/g, ''), password);
+  await DashboardPage.validate();
+  await setDefaultTimeout(120000);
 });
 
 When('I press the jump button', async () => {
@@ -31,12 +42,7 @@ When(/^I input my invalid credentials Usuario "(\d+)" and Contraseña "([^"]+)"$
 });
 
 Then('I should see the dashboard', async() => {
-  await LoginPage.loginDashboard();
-
-});
-
-Given(/^I have logged in the app with my credentials Usuario \"([^\"]*)\" and Contraseña \"([^\"]*)\" and token \"([^\"]*)\"$/,{ timeout: 2 * 60000 }, async (username: string, password: string, token: string) => {
-  
+  await DashboardPage.validate;
 });
 
 Then(/^I should see the message "([^"]+)"$/, async (expectedMessage: string) => {

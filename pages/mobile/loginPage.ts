@@ -141,11 +141,11 @@ class LoginPage extends Page {
     
     }
 
-    async loginDashboard(): Promise<void>  {
-        console.log("I see the dashboard");
-        await driver.pause(4000)
-        await browser.pause(500)
-    }
+    // async loginDashboard(): Promise<void>  {
+    //     console.log("I see the dashboard");
+    //     await driver.pause(4000)
+    //     await browser.pause(500)
+    // }
 
     async validarCredencialesIncorrectas(expectedMessage: string): Promise<void> {
         const errorMessageElement = await this.txt_usuarioOcontrasenaNoSonCorrectos;

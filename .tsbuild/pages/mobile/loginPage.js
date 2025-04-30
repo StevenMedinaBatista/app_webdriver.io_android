@@ -93,11 +93,6 @@ class LoginPage extends page_1.default {
         await driver.hideKeyboard();
         await this.btn_ini.click();
     }
-    async loginDashboard() {
-        console.log("I see the dashboard");
-        await driver.pause(4000);
-        await browser.pause(500);
-    }
     async validarCredencialesIncorrectas(expectedMessage) {
         const errorMessageElement = await this.txt_usuarioOcontrasenaNoSonCorrectos;
         await errorMessageElement.waitForDisplayed();
