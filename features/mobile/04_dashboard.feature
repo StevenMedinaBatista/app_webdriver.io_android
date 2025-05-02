@@ -13,7 +13,7 @@ Feature: Dashboard - Android
 
 
     @DashboardTwo
-    Scenario Outline: View profile menu options <"option">
+    Scenario Outline: View profile menu options "<option>"
         When the user taps the profile icon on the Dashboard
         And I validate that we are on the My Profile screen
         Then the profile menu displays the "<option>" item
@@ -23,3 +23,24 @@ Feature: Dashboard - Android
         | Documentos importantes  |
         | Desvincular dispositivo |
         | Configuraciones         |
+
+    
+    @DashboardDocumentos
+    Scenario: Access Important Documents
+        When the user taps the profile icon on the Dashboard
+        And selects the "Documentos importantes" option
+        Then the documentos importantes screen is displayed
+        
+
+    @DashboardDesvincular
+    Scenario: Unlink device
+        When the user taps the profile icon on the Dashboard
+        And selects the "Desvincular dispositivo" option
+        Then a confirmation message is shown to Desvincular dispositivo
+
+
+    @DashboardConfiguraciones
+    Scenario: Logout from the profile menu
+        When the user taps the profile icon on the Dashboard
+        And selects the "Configuraciones" option
+        Then the user is redirected to the Configuraciones screen

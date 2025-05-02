@@ -28,6 +28,18 @@ class DashboardPage extends page_1.default {
     ;
     get btn_salir() { return $('//android.widget.TextView[@text="Salir"]'); }
     ;
+    get txt_documentosFirmadosEnNuestraAplicacion() { return $('//android.widget.TextView[@text="Documentos firmados en nuestra aplicación:"]'); }
+    ;
+    get btn_terminosYcondiciones() { return $('//android.widget.TextView[@text="Términos y condiciones"]'); }
+    ;
+    get txt_dispositivoVinculadoAestaCuenta() { return $('//android.widget.TextView[@text="Dispositivo vinculado a esta cuenta con sesión abierta:"]'); }
+    ;
+    get icon_basura() { return $('Icono basura:  //androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View'); }
+    ;
+    get txt_cambiarMiContrasena() { return $('//android.widget.TextView[@text="Cambiar mi contraseña"]'); }
+    ;
+    get icon_dropdown() { return $('//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View/android.view.View[2]/android.view.View'); }
+    ;
     getOption(option) { return $(`//android.widget.TextView[@text="${option}"]`); }
     async validate() {
         console.log("Validate Dashboard");
@@ -71,11 +83,34 @@ class DashboardPage extends page_1.default {
             await el.waitForDisplayed({ timeout: 5000 });
         }
     }
+    async validateImportantDocumentsScreen() {
+        console.log("Validate Documentos Importantes...");
+        await expect(this.btn_documentosImportantes).toBePresent();
+        await expect(this.txt_documentosFirmadosEnNuestraAplicacion).toBePresent();
+        await expect(this.btn_terminosYcondiciones).toBePresent();
+    }
+    async validateUnlinkDeviceScreen() {
+        console.log("Validate Desvincular Dispositivos...");
+        await expect(this.btn_desvincularDispositivo).toBePresent();
+        await expect(this.txt_dispositivoVinculadoAestaCuenta).toBePresent();
+        await expect(this.icon_basura).toBePresent();
+    }
+    async validateSettingsScreen() {
+        console.log("Validate Configuraciones...");
+        await expect(this.btn_configuraciones).toBePresent();
+        await expect(this.txt_cambiarMiContrasena).toBePresent();
+        await expect(this.icon_dropdown).toBePresent();
+    }
     async tapProfileIcon() {
         await this.btn_ID.waitForDisplayed({ timeout: 5000 });
         await this.btn_ID.click();
     }
     async selectOption(option) {
+        const el = await this.getOption(option);
+        await el.waitForDisplayed({ timeout: 5000 });
+        await el.click();
+    }
+    async selectProfileOption(option) {
         const el = await this.getOption(option);
         await el.waitForDisplayed({ timeout: 5000 });
         await el.click();

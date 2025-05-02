@@ -30,8 +30,8 @@ class splashPage extends Page {
     
     async login(): Promise<void> {
         await this.waitForTimeout(2000);
-        await expect(this.txt_consulta_tus_inversiones_En_TodoMomento).toBeExisting();
-        await expect(this.txt_da_seguimiento_a_tu_portafolio).toBeExisting();
+        await expect(this.txt_consulta_tus_inversiones_En_TodoMomento).toBePresent();
+        await expect(this.txt_da_seguimiento_a_tu_portafolio).toBePresent();
         await expect(this.btn_Saltar).toBePresent();
         console.log("Preciono el boton Saltar");
     }

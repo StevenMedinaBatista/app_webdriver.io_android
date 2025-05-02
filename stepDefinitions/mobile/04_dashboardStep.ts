@@ -12,7 +12,21 @@ import DashboardPage from "../../pages/mobile/04_dashboardPage"
 
 Then('the profile menu displays the {string} item', async (option: string) => {
     await DashboardPage.validateMenuOptions([option]);
-  });
+});
+
+Then('the documentos importantes screen is displayed', async () => {
+    await DashboardPage.validateImportantDocumentsScreen();
+});
+
+Then('a confirmation message is shown to Desvincular dispositivo', async () => {
+    await DashboardPage.validateUnlinkDeviceScreen();
+});
+
+Then('the user is redirected to the Configuraciones screen', async () => {
+    await DashboardPage.validateSettingsScreen();
+});
+
+
 
 When('I validate that we are on the My Profile screen', async () => {
     await DashboardPage.validateMiPerfil();
@@ -20,4 +34,8 @@ When('I validate that we are on the My Profile screen', async () => {
 
 When('the user taps the profile icon on the Dashboard', async () => {
     await DashboardPage.tapProfileIcon();
+});
+
+When('selects the {string} option', async (option: string) => {
+    await DashboardPage.selectProfileOption(option);
 });

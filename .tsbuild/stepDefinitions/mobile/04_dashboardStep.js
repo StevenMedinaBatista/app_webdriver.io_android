@@ -8,9 +8,21 @@ const _04_dashboardPage_1 = __importDefault(require("../../pages/mobile/04_dashb
 (0, cucumber_1.Then)('the profile menu displays the {string} item', async (option) => {
     await _04_dashboardPage_1.default.validateMenuOptions([option]);
 });
+(0, cucumber_1.Then)('the documentos importantes screen is displayed', async () => {
+    await _04_dashboardPage_1.default.validateImportantDocumentsScreen();
+});
+(0, cucumber_1.Then)('a confirmation message is shown to Desvincular dispositivo', async () => {
+    await _04_dashboardPage_1.default.validateUnlinkDeviceScreen();
+});
+(0, cucumber_1.Then)('the user is redirected to the Configuraciones screen', async () => {
+    await _04_dashboardPage_1.default.validateSettingsScreen();
+});
 (0, cucumber_1.When)('I validate that we are on the My Profile screen', async () => {
     await _04_dashboardPage_1.default.validateMiPerfil();
 });
 (0, cucumber_1.When)('the user taps the profile icon on the Dashboard', async () => {
     await _04_dashboardPage_1.default.tapProfileIcon();
+});
+(0, cucumber_1.When)('selects the {string} option', async (option) => {
+    await _04_dashboardPage_1.default.selectProfileOption(option);
 });
