@@ -41,7 +41,7 @@ exports.config = {
         'spec',
         ['allure', {
                 outputDir: './allure-results/',
-                disableWebdriverStepsReporting: false,
+                disableWebdriverStepsReporting: true,
                 disableWebdriverScreenshotsReporting: false,
             }],
         ['junit', {

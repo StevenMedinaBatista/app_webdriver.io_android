@@ -51,7 +51,7 @@ Feature: Dashboard - Android
     Scenario: Press option Salir
         When the user taps the profile icon on the Dashboard
         And selects the "Salir" option
-        Then the user is redirected to the Configuraciones screen
+        Then the user is redirected to the Salir PopUp
 
 
     @CorretajeValidacion
@@ -65,7 +65,7 @@ Feature: Dashboard - Android
         When I tap anywhere on the brokerage account card
         Then the brokerage account detail screen is displayed
 
-        
+
     @cardVerMas
     Scenario: View summarized investment information by clicking "Ver más"
         Given I am on the brokerage accounts section
@@ -73,8 +73,11 @@ Feature: Dashboard - Android
         Then the investment summary is displayed
     
 
-    
+    @cardVerMenos
     Scenario: Hide summarized investment information by clicking "Ver menos"
-        Given I have opened the investment summary
-        When I tap the "Ver menos" button
+        # Given I have opened the investment summary
+        Given I am on the brokerage accounts section
+        When I tap the "Ver más" button on a brokerage account with investments
+        Then the investment summary is displayed
+        When I tap the "Ver menos" button on a brokerage account with investments
         Then the investment summary is hidden

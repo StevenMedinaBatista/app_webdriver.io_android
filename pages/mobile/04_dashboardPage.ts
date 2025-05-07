@@ -9,6 +9,7 @@ class DashboardPage extends Page {
     get carruselDeCuentas() { return $('//android.widget.ScrollView/android.view.View[1]') }
     get txt_noCuenta() { return $('//android.widget.TextView[@text="No. de cuenta"]') }
     get txt_verMas() { return $('//android.widget.TextView[@text="Ver más"]') };
+    get txt_verMenos() { return $('//android.widget.TextView[@text="Ver menos"]') };
     get txt_miPortafolio() { return $('//android.widget.TextView[@text="Mi portafolio"]') }
     get img_invertirEnMi() { return $('//android.widget.ScrollView/android.view.View[3]') }
 
@@ -228,13 +229,18 @@ class DashboardPage extends Page {
     }
 
     async tapCarruselAccountCard(): Promise<void> {
-        await this.carruselDeCuentas.waitForDisplayed({ timeout: 5000 });
+        await expect(this.carruselDeCuentas).toBePresent();
         await this.carruselDeCuentas.click();
     }
 
     async tapVerMas(): Promise<void> {
         await expect(this.txt_verMas).toBePresent();
         await this.txt_verMas.click();
+    }
+
+    async tapVerMenos(): Promise<void> {
+        await expect(this.txt_verMenos).toBePresent();
+        await this.txt_verMenos.click();
     }
 
     async selectOption(option: string): Promise<void> {

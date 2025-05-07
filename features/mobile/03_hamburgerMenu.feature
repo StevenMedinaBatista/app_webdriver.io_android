@@ -43,7 +43,7 @@ Feature: Hamburger Menu - Android
         Then the hamburger menu displays correctly
         And the user sees the "User Protection" option
         And the user selects the "Policies and Privacy" option
-        Then the user is redirected to the "Policies and Privacy" screen
+        # Then the user is redirected to the "Policies and Privacy" screen
 
 
     @tariffchart

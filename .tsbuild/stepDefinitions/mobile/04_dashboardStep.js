@@ -8,6 +8,9 @@ const _04_dashboardPage_1 = __importDefault(require("../../pages/mobile/04_dashb
 (0, cucumber_1.Given)('I am on the brokerage accounts section', async () => {
     await _04_dashboardPage_1.default.validateCarrousel();
 });
+(0, cucumber_1.Given)('I have opened the investment summary', async () => {
+    await _04_dashboardPage_1.default.validateCarrousel();
+});
 (0, cucumber_1.Then)('the profile menu displays the {string} item', async (option) => {
     await _04_dashboardPage_1.default.validateMenuOptions([option]);
 });
@@ -32,6 +35,9 @@ const _04_dashboardPage_1 = __importDefault(require("../../pages/mobile/04_dashb
 (0, cucumber_1.Then)('the investment summary is displayed', async () => {
     await _04_dashboardPage_1.default.validateVerMas();
 });
+(0, cucumber_1.Then)('the investment summary is hidden', async () => {
+    await _04_dashboardPage_1.default.validateCarrousel();
+});
 (0, cucumber_1.When)('I validate that we are on the My Profile screen', async () => {
     await _04_dashboardPage_1.default.validateMiPerfil();
 });
@@ -42,9 +48,13 @@ const _04_dashboardPage_1 = __importDefault(require("../../pages/mobile/04_dashb
     await _04_dashboardPage_1.default.selectProfileOption(option);
 });
 (0, cucumber_1.When)('I tap anywhere on the brokerage account card', async () => {
+    await _04_dashboardPage_1.default.tapCarruselAccountCard();
 });
 (0, cucumber_1.When)('I tap the {string} button on a brokerage account with investments', async (buttonText) => {
     if (buttonText === 'Ver más') {
         await _04_dashboardPage_1.default.tapVerMas();
+    }
+    else if (buttonText === 'Ver menos') {
+        await _04_dashboardPage_1.default.tapVerMenos();
     }
 });

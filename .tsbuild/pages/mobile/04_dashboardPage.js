@@ -11,6 +11,8 @@ class DashboardPage extends page_1.default {
     get txt_noCuenta() { return $('//android.widget.TextView[@text="No. de cuenta"]'); }
     get txt_verMas() { return $('//android.widget.TextView[@text="Ver más"]'); }
     ;
+    get txt_verMenos() { return $('//android.widget.TextView[@text="Ver menos"]'); }
+    ;
     get txt_miPortafolio() { return $('//android.widget.TextView[@text="Mi portafolio"]'); }
     get img_invertirEnMi() { return $('//android.widget.ScrollView/android.view.View[3]'); }
     get txt_totalDeInversiones() { return $('//android.widget.TextView[@text="Total de inversiones:"]'); }
@@ -194,12 +196,16 @@ class DashboardPage extends page_1.default {
         await this.btn_ID.click();
     }
     async tapCarruselAccountCard() {
-        await this.carruselDeCuentas.waitForDisplayed({ timeout: 5000 });
+        await expect(this.carruselDeCuentas).toBePresent();
         await this.carruselDeCuentas.click();
     }
     async tapVerMas() {
         await expect(this.txt_verMas).toBePresent();
         await this.txt_verMas.click();
+    }
+    async tapVerMenos() {
+        await expect(this.txt_verMenos).toBePresent();
+        await this.txt_verMenos.click();
     }
     async selectOption(option) {
         const el = await this.getOption(option);

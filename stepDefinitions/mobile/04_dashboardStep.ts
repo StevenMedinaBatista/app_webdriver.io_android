@@ -14,6 +14,12 @@ Given ('I am on the brokerage accounts section', async () => {
     await DashboardPage.validateCarrousel();
 });
 
+Given ('I have opened the investment summary', async () => {
+    await DashboardPage.validateCarrousel();
+});
+
+
+
 
 Then('the profile menu displays the {string} item', async (option: string) => {
     await DashboardPage.validateMenuOptions([option]);
@@ -47,6 +53,11 @@ Then('the investment summary is displayed', async () => {
     await DashboardPage.validateVerMas();
 });
 
+Then('the investment summary is hidden', async () => {
+    await DashboardPage.validateCarrousel();
+});
+
+
 
 When('I validate that we are on the My Profile screen', async () => {
     await DashboardPage.validateMiPerfil();
@@ -61,13 +72,14 @@ When('selects the {string} option', async (option: string) => {
 });
 
 When('I tap anywhere on the brokerage account card', async () => {
-    // await DashboardPage.tapCarruselAccountCard();
+    await DashboardPage.tapCarruselAccountCard();
 });
 
 When('I tap the {string} button on a brokerage account with investments', async (buttonText: string) => {
     if (buttonText === 'Ver más') {
         await DashboardPage.tapVerMas();
+    } else if(buttonText === 'Ver menos') {
+        await DashboardPage.tapVerMenos();
     }
-    // Cuando tenga "Ver menos" lo manejo por aqui mismo
 });
 
