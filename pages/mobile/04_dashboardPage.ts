@@ -6,10 +6,18 @@ class DashboardPage extends Page {
     //* Pantalla Dashboard
 
     get btn_ID() { return $('//android.widget.TextView[@text="ID"]') }
+    get carruselDeCuentas() { return $('//android.widget.ScrollView/android.view.View[1]') }
     get txt_noCuenta() { return $('//android.widget.TextView[@text="No. de cuenta"]') }
     get txt_verMas() { return $('//android.widget.TextView[@text="Ver más"]') };
     get txt_miPortafolio() { return $('//android.widget.TextView[@text="Mi portafolio"]') }
     get img_invertirEnMi() { return $('//android.widget.ScrollView/android.view.View[3]') }
+
+
+    //* Pantalla PopUp Ver Mas
+
+    get txt_totalDeInversiones() { return $('//android.widget.TextView[@text="Total de inversiones:"]') };
+    get txt_valoresDop() { return $('//android.widget.TextView[@text="Valores DOP"]') };
+    get txt_Producto() { return $('//android.widget.TextView[@text="  Producto"]') };
 
 
     //* Pantalla Mi Perfil
@@ -49,6 +57,23 @@ class DashboardPage extends Page {
     get icon_dropdown() { return $('//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View/android.view.View[2]/android.view.View') };
 
 
+    //* Pantalla Salir
+    get txt_seguroQueDeseaSalir() { return $('//android.widget.TextView[@text="¿Seguro que deseas salir?"]') };
+    get txt_estasDejandoLaAplicacion() { return $('//android.widget.TextView[@text="Estás dejando la aplicación."]') };
+    get btn_cerrarSesion() { return $('//android.widget.TextView[@text="Cerrar sesión"]') };
+    get btn_cancelar() { return $('//android.widget.TextView[@text="Cancelar"]') };
+    
+
+    //* Pantalla Informacion de Cuentas
+    get txt_numeroDeCuentaCarretaje() { return $('//android.widget.TextView[@text="Número de cuenta de corretaje"]') };
+    get txt_tipoDeCuenta() { return $('//android.widget.TextView[@text="Tipo de cuenta"]') };
+    get txt_fechaDeApertura() { return $('//android.widget.TextView[@text="Fecha de apertura"]') };
+    get txt_codigoDelCliente() { return $('//android.widget.TextView[@text="Código del cliente"]') };
+    get txt_cuentasAsociadas() { return $('//android.widget.TextView[@text="Cuenta(s) asociada(s)"]') };
+    get txt_entidad() { return $('//android.widget.TextView[@text="Entidad"]') };
+    get txt_numeracion() { return $('//android.widget.TextView[@text="Numeración"]') };
+
+
 
     getOption(option: string) {return $(`//android.widget.TextView[@text="${option}"]`); }
 
@@ -61,6 +86,20 @@ class DashboardPage extends Page {
         await expect(this.txt_verMas).toBePresent();
         await expect(this.txt_miPortafolio).toBePresent();
         await expect(this.img_invertirEnMi).toBePresent();
+    }
+
+    async validateCarrousel(): Promise<void> {
+        console.log("Validate card Carrousel...");
+        await expect(this.carruselDeCuentas).toBePresent();
+        await expect(this.txt_noCuenta).toBePresent();
+        await expect(this.txt_verMas).toBePresent();
+    }
+
+    async validateVerMas(): Promise<void> {
+        console.log("Validate card Ver Mas");
+        await expect(this.txt_totalDeInversiones).toBePresent();
+        await expect(this.txt_valoresDop).toBePresent();
+        await expect(this.txt_Producto).toBePresent();
     }
 
     async validateMiPerfil(): Promise<void> {
@@ -124,12 +163,78 @@ class DashboardPage extends Page {
         await expect(this.icon_dropdown).toBePresent();
     }
 
+    async validatePoUpSalir(): Promise<void> {
+        console.log("Validate PopUp Salir.");
+        await expect(this.txt_seguroQueDeseaSalir).toBePresent();
+        await expect(this.txt_estasDejandoLaAplicacion).toBePresent();
+        await expect(this.btn_cerrarSesion).toBePresent();
+        await expect(this.btn_cancelar).toBePresent();
+    }
+
+    async validateInformacionDeCuentas(): Promise<void> {
+        console.log("Validate Informacion De Cuentas...");
+        await expect(this.txt_numeroDeCuentaCarretaje).toBePresent();
+        await expect(this.txt_tipoDeCuenta).toBePresent();
+        await expect(this.txt_fechaDeApertura).toBePresent();
+        await expect(this.txt_codigoDelCliente).toBePresent();
+        await expect(this.txt_cuentasAsociadas).toBePresent();
+        await expect(this.txt_entidad).toBePresent();
+        await expect(this.txt_numeracion).toBePresent();
+    }
+
+    async validateDynamicBrokerageAccounts(): Promise<void> {
+        const section = await $('//android.widget.TextView[@text="No. de cuenta"]');
+        await section.waitForDisplayed({ timeout: 5000 });
+    
+        const cards = await $$('//android.widget.ScrollView/android.view.View[1]');
+    
+        if (cards.length === 0) {
+            const emptyMsg = await $('//android.widget.TextView[contains(@text,"No posee productos disponibles")]');
+            await emptyMsg.waitForDisplayed({ timeout: 5000 });
+            console.log('Usuario con cuenta sin productos');
+        } else if (cards.length === 1) {
+            await cards[0].waitForDisplayed({ timeout: 5000 });
+            console.log('Usuario con una cuenta de corretaje');
+        } else {
+            // Validar la primera tarjeta
+            await cards[0].waitForDisplayed({ timeout: 5000 });
+            console.log(`Usuario con múltiples cuentas (${cards.length})`);
+    
+            // Realizar desplazamientos para mostrar más tarjetas
+            for (let i = 0; i < cards.length - 1; i++) {
+                const startX = 900;
+                const startY = 650;
+                const endX = 200;
+                const endY = 650;
+    
+                await browser.touchAction([
+                    { action: 'press', x: startX, y: startY },
+                    { action: 'moveTo', x: endX, y: endY },
+                    'release'
+                ]);
+    
+                await driver.pause(800); // Pausa ligera para que la animación termine
+            }
+        }
+    }
+    
+
 
     // Taps
 
     async tapProfileIcon(): Promise<void> {
         await this.btn_ID.waitForDisplayed({ timeout: 5000 });
         await this.btn_ID.click();
+    }
+
+    async tapCarruselAccountCard(): Promise<void> {
+        await this.carruselDeCuentas.waitForDisplayed({ timeout: 5000 });
+        await this.carruselDeCuentas.click();
+    }
+
+    async tapVerMas(): Promise<void> {
+        await expect(this.txt_verMas).toBePresent();
+        await this.txt_verMas.click();
     }
 
     async selectOption(option: string): Promise<void> {
