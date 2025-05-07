@@ -138,8 +138,8 @@ export const config: WebdriverIO.Config = {
             ['allure', {
                 outputDir: './allure-results/',
                 disableWebdriverStepsReporting: true,
-                disableWebdriverScreenshotsReporting: true,
-                useCucumberStepReporter: false,
+                disableWebdriverScreenshotsReporting: false,
+                useCucumberStepReporter: true,
             }],
             ['junit', {
                 outputDir: 'junit-report',
