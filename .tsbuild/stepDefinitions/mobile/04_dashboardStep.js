@@ -11,6 +11,10 @@ const _04_dashboardPage_1 = __importDefault(require("../../pages/mobile/04_dashb
 (0, cucumber_1.Given)('I have opened the investment summary', async () => {
     await _04_dashboardPage_1.default.validateCarrousel();
 });
+(0, cucumber_1.Given)('the user is viewing the list of investment purposes', async () => {
+    await _04_dashboardPage_1.default.clickBannerQuieroInvertirEnMi();
+    await _04_dashboardPage_1.default.validateBannerScreenAndInvestments();
+});
 (0, cucumber_1.Then)('the profile menu displays the {string} item', async (option) => {
     await _04_dashboardPage_1.default.validateMenuOptions([option]);
 });
@@ -38,6 +42,12 @@ const _04_dashboardPage_1 = __importDefault(require("../../pages/mobile/04_dashb
 (0, cucumber_1.Then)('the investment summary is hidden', async () => {
     await _04_dashboardPage_1.default.validateCarrousel();
 });
+(0, cucumber_1.Then)('the Quiero invertir en mi banner is displayed at the bottom of the Dashboard', async () => {
+    await _04_dashboardPage_1.default.validateBannerInvertirEnMi();
+});
+(0, cucumber_1.Then)('the Quiero invertir en mi screen and the list of investments are displayed', async () => {
+    await _04_dashboardPage_1.default.validateBannerScreenAndInvestments();
+});
 (0, cucumber_1.When)('I validate that we are on the My Profile screen', async () => {
     await _04_dashboardPage_1.default.validateMiPerfil();
 });
@@ -57,4 +67,16 @@ const _04_dashboardPage_1 = __importDefault(require("../../pages/mobile/04_dashb
     else if (buttonText === 'Ver menos') {
         await _04_dashboardPage_1.default.tapVerMenos();
     }
+});
+(0, cucumber_1.When)('you click the Quiero invertir en mi banner', async () => {
+    await _04_dashboardPage_1.default.clickBannerQuieroInvertirEnMi();
+});
+(0, cucumber_1.When)(/^the user taps on the "([^"]+)" purpose$/, async (purpose) => {
+    await _04_dashboardPage_1.default.clickInvestmentPurpose(purpose);
+});
+(0, cucumber_1.Then)('the {string} detail screen is displayed', async (purpose) => {
+    await _04_dashboardPage_1.default.validatePurposeDetailScreen(purpose);
+});
+(0, cucumber_1.Then)('the user can return to the list of investment purposes', async () => {
+    await _04_dashboardPage_1.default.returnToInvestmentPurposeList();
 });

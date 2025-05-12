@@ -1,5 +1,15 @@
 import Page from './page';
 import commonsPage from './commonsPage';
+import type { Element, ChainablePromiseElement } from 'webdriverio';
+
+
+export type InvestmentPurpose =
+  | 'Comprar bienes'
+  | 'Diversificar patrimonio'
+  | 'Pago de estudios'
+  | 'Proyecto de vida'
+  | 'Viajar';
+
 
 class DashboardPage extends Page {
 
@@ -11,7 +21,13 @@ class DashboardPage extends Page {
     get txt_verMas() { return $('//android.widget.TextView[@text="Ver más"]') };
     get txt_verMenos() { return $('//android.widget.TextView[@text="Ver menos"]') };
     get txt_miPortafolio() { return $('//android.widget.TextView[@text="Mi portafolio"]') }
+    get card_miPortafolio() { return $('//android.widget.ScrollView/android.view.View[2]') }
     get img_invertirEnMi() { return $('//android.widget.ScrollView/android.view.View[3]') }
+    get txt_inicio() { return $('//android.widget.TextView[@text="Inicio"]') };
+    get txt_invertir() { return $('//android.widget.TextView[@text="Invertir"]') };
+    get txt_servicios() { return $('//android.widget.TextView[@text="Servicios"]') };
+    get txt_especialista() { return $('//android.widget.TextView[@text="Especialista"]') };
+
 
 
     //* Pantalla PopUp Ver Mas
@@ -75,6 +91,18 @@ class DashboardPage extends Page {
     get txt_numeracion() { return $('//android.widget.TextView[@text="Numeración"]') };
 
 
+    //* Pantalla Informacion de Cuentas
+    get txt_invertirEnMi() { return $('//android.widget.TextView[@text="Quiero invertir en mi…"]') };
+    get txt_lasInversionesSonClaves() { return $('//android.widget.TextView[@text="Las inversiones son claves al momento de aumentar tus ahorros. Dependiendo de tus aspiraciones, edad, ingresos y perspectivas del futuro, estas inversiones pueden ser:"]') };
+    get btn_comprarBienes() { return $('//android.widget.ScrollView/android.view.View[1]') };
+    get txt_diversificarPatrimonio() { return $('//android.widget.TextView[@text="Diversificar patrimonio"]') };
+    get txt_pagoDeEstudios() { return $('//android.widget.TextView[@text="Pago de estudios"]') };
+    get txt_proyectoDeVida() { return $('//android.widget.TextView[@text="Proyecto de vida"]') };
+    get txt_viajar() { return $('//android.widget.TextView[@text="Viajar"]') };
+    get back_arrow() { return $('//android.widget.Button') };
+
+    
+
 
     getOption(option: string) {return $(`//android.widget.TextView[@text="${option}"]`); }
 
@@ -94,6 +122,12 @@ class DashboardPage extends Page {
         await expect(this.carruselDeCuentas).toBePresent();
         await expect(this.txt_noCuenta).toBePresent();
         await expect(this.txt_verMas).toBePresent();
+    }
+
+    async validateMiPortafolio(): Promise<void> {
+        console.log("Validate Mi Portafolio");
+        await expect(this.txt_miPortafolio).toBePresent();
+        await expect(this.card_miPortafolio).toBePresent();
     }
 
     async validateVerMas(): Promise<void> {
@@ -183,6 +217,26 @@ class DashboardPage extends Page {
         await expect(this.txt_numeracion).toBePresent();
     }
 
+    async validateBannerInvertirEnMi(): Promise<void> {
+        await expect(this.img_invertirEnMi).toBePresent();
+    }
+
+    async validateBannerScreenAndInvestments(): Promise<void> {
+        await expect(this.txt_invertirEnMi).toBePresent();
+        await expect(this.txt_lasInversionesSonClaves).toBePresent();
+        await expect(this.btn_comprarBienes).toBePresent();
+        await expect(this.txt_diversificarPatrimonio).toBePresent();
+        await expect(this.txt_pagoDeEstudios).toBePresent();
+        await expect(this.txt_proyectoDeVida).toBePresent();
+        await expect(this.txt_viajar).toBePresent();
+    }
+
+    async validatePurposeDetailScreen(purpose: string): Promise<void> {
+        const selector = `//*[@text="${purpose}"]`;
+        const titleElement = await $(selector);
+        await expect(titleElement).toBeDisplayed();
+    }
+
     async validateDynamicBrokerageAccounts(): Promise<void> {
         const section = await $('//android.widget.TextView[@text="No. de cuenta"]');
         await section.waitForDisplayed({ timeout: 5000 });
@@ -243,6 +297,24 @@ class DashboardPage extends Page {
         await this.txt_verMenos.click();
     }
 
+    async clickInvestmentPurpose(purpose: string): Promise<void> {
+        const purposes: Record<InvestmentPurpose, ChainablePromiseElement<WebdriverIO.Element>> = {
+          'Comprar bienes': this.btn_comprarBienes,
+          'Diversificar patrimonio': this.txt_diversificarPatrimonio,
+          'Pago de estudios': this.txt_pagoDeEstudios,
+          'Proyecto de vida': this.txt_proyectoDeVida,
+          'Viajar': this.txt_viajar,
+        };
+      
+        if (purpose in purposes) {
+          await purposes[purpose as InvestmentPurpose].click();
+        } else {
+          throw new Error(`Propósito de inversión inválido: "${purpose}"`);
+        }
+    }
+      
+    
+
     async selectOption(option: string): Promise<void> {
         const el = await this.getOption(option);
         await el.waitForDisplayed({ timeout: 5000 });
@@ -253,6 +325,15 @@ class DashboardPage extends Page {
         const el = await this.getOption(option);
         await el.waitForDisplayed({ timeout: 5000 });
         await el.click();
+    }
+
+    async clickBannerQuieroInvertirEnMi(): Promise<void> {
+        (await this.img_invertirEnMi).click();
+    }
+
+    async returnToInvestmentPurposeList(): Promise<void> {
+        await this.back_arrow.click();
+        // await expect(this.txt_invertirEnMi).toBePresent();
     }
 
 }

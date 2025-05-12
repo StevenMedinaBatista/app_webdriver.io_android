@@ -18,6 +18,10 @@ Given ('I have opened the investment summary', async () => {
     await DashboardPage.validateCarrousel();
 });
 
+Given('the user is viewing the list of investment purposes', async () => {
+    await DashboardPage.clickBannerQuieroInvertirEnMi();
+    await DashboardPage.validateBannerScreenAndInvestments();
+});
 
 
 
@@ -57,6 +61,14 @@ Then('the investment summary is hidden', async () => {
     await DashboardPage.validateCarrousel();
 });
 
+Then('the Quiero invertir en mi banner is displayed at the bottom of the Dashboard', async () => {
+    await DashboardPage.validateBannerInvertirEnMi();
+});
+
+Then('the Quiero invertir en mi screen and the list of investments are displayed', async () => {
+    await DashboardPage.validateBannerScreenAndInvestments();
+});
+
 
 
 When('I validate that we are on the My Profile screen', async () => {
@@ -83,3 +95,19 @@ When('I tap the {string} button on a brokerage account with investments', async 
     }
 });
 
+When('you click the Quiero invertir en mi banner', async () => {
+    await DashboardPage.clickBannerQuieroInvertirEnMi();
+});
+
+
+When(/^the user taps on the "([^"]+)" purpose$/, async (purpose: string) => {
+    await DashboardPage.clickInvestmentPurpose(purpose);
+});
+
+Then('the {string} detail screen is displayed', async (purpose: string) => {
+    await DashboardPage.validatePurposeDetailScreen(purpose);
+});
+
+Then('the user can return to the list of investment purposes', async () => {
+    await DashboardPage.returnToInvestmentPurposeList();
+});

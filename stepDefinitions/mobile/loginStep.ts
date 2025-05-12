@@ -52,3 +52,7 @@ Then('I should see the dashboard', async() => {
 Then(/^I should see the message "([^"]+)"$/, async (expectedMessage: string) => {
   await LoginPage.validarCredencialesIncorrectas(expectedMessage);
 });
+
+Then('I should see the associated investment products if available', async () => {
+  await DashboardPage.validateMiPortafolio();
+});

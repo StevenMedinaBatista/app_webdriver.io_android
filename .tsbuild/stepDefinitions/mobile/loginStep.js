@@ -43,3 +43,6 @@ const _04_dashboardPage_1 = __importDefault(require("../../pages/mobile/04_dashb
 (0, cucumber_1.Then)(/^I should see the message "([^"]+)"$/, async (expectedMessage) => {
     await loginPage_1.default.validarCredencialesIncorrectas(expectedMessage);
 });
+(0, cucumber_1.Then)('I should see the associated investment products if available', async () => {
+    await _04_dashboardPage_1.default.validateMiPortafolio();
+});

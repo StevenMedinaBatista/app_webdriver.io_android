@@ -81,3 +81,44 @@ Feature: Dashboard - Android
         Then the investment summary is displayed
         When I tap the "Ver menos" button on a brokerage account with investments
         Then the investment summary is hidden
+
+
+    # @portfolio
+    #   Scenario: Mi portafolio 0 producto
+    #     Given I am on the brokerage accounts section
+    #     Then I should see the associated investment products if available
+
+    
+    @portfolio
+    Scenario: Mi portafolio 1 producto
+        Given I am on the brokerage accounts section
+        Then I should see the associated investment products if available
+
+
+    # @portfolio
+    # Scenario: Mi portafolio 2 producto
+    #   Given I am on the brokerage accounts section
+    #   Then I should see the associated investment products if available
+
+
+    @DashboardInvertirEnMi
+    Scenario: Mostrar y acceder al banner Quiero invertir en mi
+        Then the Quiero invertir en mi banner is displayed at the bottom of the Dashboard
+        When you click the Quiero invertir en mi banner
+        Then the Quiero invertir en mi screen and the list of investments are displayed
+
+
+    @DashboardPropositosNavegacion
+    Scenario Outline: Validar pantalla de propósito de inversión "<purpose>"
+        Given the user is viewing the list of investment purposes
+        When the user taps on the "<purpose>" purpose
+        Then the "<purpose>" detail screen is displayed
+        And the user can return to the list of investment purposes
+
+        Examples:
+        | purpose                 |
+        | Comprar bienes          |
+        | Diversificar patrimonio |
+        | Pago de estudios        |
+        | Proyecto de vida        |
+        | Viajar                  |
