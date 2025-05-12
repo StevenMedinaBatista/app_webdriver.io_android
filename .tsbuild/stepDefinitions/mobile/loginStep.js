@@ -16,6 +16,7 @@ const _04_dashboardPage_1 = __importDefault(require("../../pages/mobile/04_dashb
     await loginPage_1.default.tabAccesoClientes();
     await loginPage_1.default.tabIniciarSesion();
     await loginPage_1.default.inputCredentials(username.replace(/-/g, ''), password);
+    await loginPage_1.default.tabIniciarSesion();
     await _04_dashboardPage_1.default.validate();
     await (0, cucumber_1.setDefaultTimeout)(120000);
 });
@@ -29,11 +30,14 @@ const _04_dashboardPage_1 = __importDefault(require("../../pages/mobile/04_dashb
 });
 (0, cucumber_1.When)(/^I login with my credentials Usuario "([\d\-]+)" and Contraseña "([^"]+)"$/, async (username, password) => {
     await loginPage_1.default.inputCredentials(username.replace(/-/g, ''), password);
+    await loginPage_1.default.tabIniciarSesion();
 });
 (0, cucumber_1.When)(/^I input my invalid credentials Usuario "(\d+)" and Contraseña "([^"]+)"$/, async (username, password) => {
     await loginPage_1.default.inputIncorrectCredentials(username, password);
 });
 (0, cucumber_1.Then)('I should see the dashboard', async () => {
+    await (await _04_dashboardPage_1.default.txt_noCuenta).waitForDisplayed({ timeout: 10000 });
+    await expect(await _04_dashboardPage_1.default.txt_noCuenta).toBeDisplayed();
     await _04_dashboardPage_1.default.validate;
 });
 (0, cucumber_1.Then)(/^I should see the message "([^"]+)"$/, async (expectedMessage) => {

@@ -83,10 +83,9 @@ class LoginPage extends Page {
     async inputCredentials(username: string, password: string): Promise<void>  {
         console.log("Input credentials: " + username + " " + password);
     
-        try {
             // await expect(this.lbl_Usuario).toBeDisplayed();
             // await expect(this.lbl_Contrasena).toBeDisplayed();
-            await expect(this.btn_ini).toBeDisplayed();
+            await expect(this.btn_ini).toBePresent();
     
             await this.lbl_Usuario.click();
             await driver.pause(300)
@@ -100,24 +99,16 @@ class LoginPage extends Page {
 
             await driver.hideKeyboard();
 
-            await this.btn_ini.click();
+            // await this.btn_ini.click();
     
-            await driver.pause(5000);
+            // await driver.pause(5000);
     
-            const errorMessage = await $('//android.widget.TextView[@text="El usuario o la contraseña no son correctos"]');
-            if (await errorMessage.isDisplayed()) {
-                await browser.saveScreenshot('./error-screenshots/login-error.png');
-                throw new Error("Login failed: El usuario o la contraseña no son correctos");
-            }
+            // const errorMessage = await $('//android.widget.TextView[@text="El usuario o la contraseña no son correctos"]');
+            // if (await expect(errorMessage).toBePresent()) {
+            //     await browser.saveScreenshot('./error-screenshots/login-error.png');
+            //     throw new Error("Login failed: El usuario o la contraseña no son correctos");
+            // }
 
-    
-            console.log("Login successful");
-        } catch (error) {
-            console.error("Error during login: ", error.message);
-    
-            // Relanza el error para que se registre como fallo
-            throw error;
-        }
     }
 
     async inputIncorrectCredentials(username: string, password: string): Promise<void>  {

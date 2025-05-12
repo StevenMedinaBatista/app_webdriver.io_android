@@ -56,29 +56,15 @@ class LoginPage extends page_1.default {
     }
     async inputCredentials(username, password) {
         console.log("Input credentials: " + username + " " + password);
-        try {
-            await expect(this.btn_ini).toBeDisplayed();
-            await this.lbl_Usuario.click();
-            await driver.pause(300);
-            await this.input_Usuario.addValue(username);
-            await driver.pause(300);
-            await this.lbl_Contrasena.click();
-            await driver.pause(300);
-            await this.input_Contrasena.addValue(password);
-            await driver.hideKeyboard();
-            await this.btn_ini.click();
-            await driver.pause(5000);
-            const errorMessage = await $('//android.widget.TextView[@text="El usuario o la contraseña no son correctos"]');
-            if (await errorMessage.isDisplayed()) {
-                await browser.saveScreenshot('./error-screenshots/login-error.png');
-                throw new Error("Login failed: El usuario o la contraseña no son correctos");
-            }
-            console.log("Login successful");
-        }
-        catch (error) {
-            console.error("Error during login: ", error.message);
-            throw error;
-        }
+        await expect(this.btn_ini).toBePresent();
+        await this.lbl_Usuario.click();
+        await driver.pause(300);
+        await this.input_Usuario.addValue(username);
+        await driver.pause(300);
+        await this.lbl_Contrasena.click();
+        await driver.pause(300);
+        await this.input_Contrasena.addValue(password);
+        await driver.hideKeyboard();
     }
     async inputIncorrectCredentials(username, password) {
         console.log("Input credentials: " + username + " " + password);

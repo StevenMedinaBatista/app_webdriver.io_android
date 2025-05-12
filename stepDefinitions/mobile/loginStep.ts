@@ -19,6 +19,7 @@ Given(/^I have logged in the app with my credentials Usuario "([\d\-]+)" and Con
   await LoginPage.tabAccesoClientes();
   await LoginPage.tabIniciarSesion();
   await LoginPage.inputCredentials(username.replace(/-/g, ''), password);
+  await LoginPage.tabIniciarSesion();
   await DashboardPage.validate();
   await setDefaultTimeout(120000);
 });
@@ -35,6 +36,7 @@ When('I navigate to the login screen', async() => {
 
 When(/^I login with my credentials Usuario "([\d\-]+)" and Contraseña "([^"]+)"$/, async (username: string, password: string) => {
   await LoginPage.inputCredentials(username.replace(/-/g, ''), password);
+  await LoginPage.tabIniciarSesion();
 });
 
 When(/^I input my invalid credentials Usuario "(\d+)" and Contraseña "([^"]+)"$/, async (username: string, password: string) => {
@@ -42,6 +44,8 @@ When(/^I input my invalid credentials Usuario "(\d+)" and Contraseña "([^"]+)"$
 });
 
 Then('I should see the dashboard', async() => {
+  await (await DashboardPage.txt_noCuenta).waitForDisplayed({ timeout: 10000 });
+  await expect(await DashboardPage.txt_noCuenta).toBeDisplayed();
   await DashboardPage.validate;
 });
 
