@@ -27,6 +27,7 @@ const _04_dashboardPage_1 = __importDefault(require("../../pages/mobile/04_dashb
 (0, cucumber_1.When)('I navigate to the login screen', async () => {
     await loginPage_1.default.tabAccesoClientes();
     await loginPage_1.default.tabIniciarSesion();
+    await driver.takeScreenshot();
 });
 (0, cucumber_1.When)(/^I login with my credentials Usuario "([\d\-]+)" and Contraseña "([^"]+)"$/, async (username, password) => {
     await loginPage_1.default.inputCredentials(username.replace(/-/g, ''), password);

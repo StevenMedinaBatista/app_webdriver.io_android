@@ -32,6 +32,7 @@ When('I press the jump button', async () => {
 When('I navigate to the login screen', async() => {
   await LoginPage.tabAccesoClientes();
   await LoginPage.tabIniciarSesion();
+  await driver.takeScreenshot();
 });
 
 When(/^I login with my credentials Usuario "([\d\-]+)" and Contraseña "([^"]+)"$/, async (username: string, password: string) => {

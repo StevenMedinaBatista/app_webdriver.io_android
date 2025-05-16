@@ -30,6 +30,10 @@ const _04_dashboardPage_1 = __importDefault(require("../../pages/mobile/04_dashb
 (0, cucumber_1.Then)('the user is redirected to the Salir PopUp', async () => {
     await _04_dashboardPage_1.default.validatePoUpSalir();
 });
+(0, cucumber_1.Then)('the user is redirected to the Salir PopUp and exit', async () => {
+    await _04_dashboardPage_1.default.validatePoUpSalir();
+    await _04_dashboardPage_1.default.tapCerrarSession();
+});
 (0, cucumber_1.Then)('the brokerage accounts are validated depending on the number of accounts', async () => {
     await _04_dashboardPage_1.default.validateDynamicBrokerageAccounts();
 });
@@ -56,6 +60,7 @@ const _04_dashboardPage_1 = __importDefault(require("../../pages/mobile/04_dashb
 });
 (0, cucumber_1.When)('selects the {string} option', async (option) => {
     await _04_dashboardPage_1.default.selectProfileOption(option);
+    await driver.takeScreenshot();
 });
 (0, cucumber_1.When)('I tap anywhere on the brokerage account card', async () => {
     await _04_dashboardPage_1.default.tapCarruselAccountCard();

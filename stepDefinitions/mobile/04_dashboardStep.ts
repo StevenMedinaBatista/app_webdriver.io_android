@@ -45,6 +45,12 @@ Then('the user is redirected to the Salir PopUp', async () => {
     await DashboardPage.validatePoUpSalir();
 });
 
+Then('the user is redirected to the Salir PopUp and exit', async () => {
+    await DashboardPage.validatePoUpSalir();
+    // await driver.takeScreenshot();
+    await DashboardPage.tapCerrarSession();
+});
+
 Then('the brokerage accounts are validated depending on the number of accounts', async () => {
     await DashboardPage.validateDynamicBrokerageAccounts();
 });
@@ -81,6 +87,7 @@ When('the user taps the profile icon on the Dashboard', async () => {
 
 When('selects the {string} option', async (option: string) => {
     await DashboardPage.selectProfileOption(option);
+    await driver.takeScreenshot();
 });
 
 When('I tap anywhere on the brokerage account card', async () => {

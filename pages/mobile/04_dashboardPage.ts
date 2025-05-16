@@ -91,7 +91,7 @@ class DashboardPage extends Page {
     get txt_numeracion() { return $('//android.widget.TextView[@text="Numeración"]') };
 
 
-    //* Pantalla Informacion de Cuentas
+    //* Pantalla Quiero invertir en mi
     get txt_invertirEnMi() { return $('//android.widget.TextView[@text="Quiero invertir en mi…"]') };
     get txt_lasInversionesSonClaves() { return $('//android.widget.TextView[@text="Las inversiones son claves al momento de aumentar tus ahorros. Dependiendo de tus aspiraciones, edad, ingresos y perspectivas del futuro, estas inversiones pueden ser:"]') };
     get btn_comprarBienes() { return $('//android.widget.ScrollView/android.view.View[1]') };
@@ -297,6 +297,11 @@ class DashboardPage extends Page {
         await this.txt_verMenos.click();
     }
 
+    async tapCerrarSession(): Promise<void> {
+        await expect(this.btn_cerrarSesion).toBePresent();
+        await this.btn_cerrarSesion.click();
+    }
+
     async clickInvestmentPurpose(purpose: string): Promise<void> {
         const purposes: Record<InvestmentPurpose, ChainablePromiseElement<WebdriverIO.Element>> = {
           'Comprar bienes': this.btn_comprarBienes,
@@ -335,6 +340,11 @@ class DashboardPage extends Page {
         await this.back_arrow.click();
         // await expect(this.txt_invertirEnMi).toBePresent();
     }
+
+
+    
+    
+
 
 }
 

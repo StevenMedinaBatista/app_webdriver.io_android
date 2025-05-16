@@ -53,7 +53,7 @@ Scenario: Registrate Button
   When user press the "Registrate" button
   Then the user is sent to the Welcome_Screen
 
-# # 6th Scenario
+# 6th Scenario
 @loginButton
 Scenario: Iniciar sesion Button
   Given the mobile application is started for the first time
@@ -63,3 +63,53 @@ Scenario: Iniciar sesion Button
   Then the user is sent to the splash_end 
   When user press the "Iniciar sesión" button
   Then the user is sent to the login_password_screen
+
+
+# ***********************************************
+#*            CASOS DE PRE-LOGIN
+# ***********************************************
+
+
+# 7th Scenario
+@PreLogin
+Scenario: Validar los apartados de <option>
+  Given the mobile application is started for the first time
+    And the user is located on the last screen of the splash
+    And the position indicator "3 points" is in the last position
+    When user press the "Acceso clientes" button
+    Then the user is sent to the splash_end
+    When user press the "Iniciar sesión" button
+    Then the user is sent to the login_password_screen
+    When user clicks the close icon in the Login
+    Then it will show the pre-login screen
+    When the user taps on the "<option>" option
+    Then the "<option>" screen is displayed
+
+    Examples:
+      | option                   |
+      | Comunícate con nosotros |
+      | Tasas de rendimiento    |
+      | Calculadora Popular     |
+
+
+@PreLoginComunicacionInterna
+Scenario Outline: Validar subopción "<subopcion>" desde Comunícate con nosotros
+  Given the mobile application is started for the first time
+    And the user is located on the last screen of the splash
+    And the position indicator "3 points" is in the last position
+    When user press the "Acceso clientes" button
+    Then the user is sent to the splash_end
+    When user press the "Iniciar sesión" button
+    Then the user is sent to the login_password_screen
+    When user clicks the close icon in the Login
+    Then it will show the pre-login screen
+    When the user taps on the "<option>" option
+    Then the "<option>" screen is displayed
+    When the user taps on the "<subopcion>" option
+    Then the "<pantalla>" screen is displayed
+
+  Examples:
+    | option                  | subopcion               | pantalla               |
+    | Comunícate con nosotros | Enviar\ncorreo          | Enviar correo          |
+    | Comunícate con nosotros | Solicitar\ncita         | Solicitar cita         |
+    | Comunícate con nosotros | Seguirnos en\nInstagram | Instagram              |

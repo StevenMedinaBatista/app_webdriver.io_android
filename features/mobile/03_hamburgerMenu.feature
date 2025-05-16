@@ -13,7 +13,7 @@ Feature: Hamburger Menu - Android
         Then it will show the pre-login screen
         And user clicks on the hamburger menu icon
 
-
+# 1st Scenario
     @HamburgerMenuSections
     Scenario: Acceso al menú hamburguesa pre-login
         Then the hamburger menu displays correctly
@@ -21,7 +21,7 @@ Feature: Hamburger Menu - Android
         And the user sees the "Services" option
         And the user sees the "Seguridad" option
 
-    
+# 2nd Scenario
     @terms
     Scenario: Navigate to "Terms and Conditions" from User Protection
         Then the hamburger menu displays correctly
@@ -29,23 +29,23 @@ Feature: Hamburger Menu - Android
         And the user selects the "Terms and Conditions" option
         Then the user is redirected to the "Terms and Conditions" screen
 
-
-    @policies @asd
-    Scenario: Navigate to "Terms and Conditions" from User Protection
+# 3rd Scenario
+    @responsibilities @asd
+    Scenario: Navigate to "Responsibilities" from User Protection
         Then the hamburger menu displays correctly
         And the user sees the "User Protection" option
         And the user selects the "Responsibilities" option
         Then the user is redirected to the "Responsibilities" screen
 
-
-    @responsibilities
-    Scenario: Navigate to "Responsibilities" from User Protection
+# 4th Scenario
+    @policies
+    Scenario: Navigate to "Policies and Privacy" from User Protection
         Then the hamburger menu displays correctly
         And the user sees the "User Protection" option
         And the user selects the "Policies and Privacy" option
-        # Then the user is redirected to the "Policies and Privacy" screen
+        Then the user is redirected to the "Policies and Privacy" screen
 
-
+# 5th Scenario
     @tariffchart
     Scenario: Navigate to "Services Tariff Chart" from the hamburger menu
         Then the hamburger menu displays correctly
@@ -53,7 +53,7 @@ Feature: Hamburger Menu - Android
         And the user selects the "Services Tariff Chart" option
         Then the user is redirected to the "Services Tariff Chart" screen
 
-
+# 6th Scenario
     @suggestionsComplaints
     Scenario: View "Suggestions and Complaints Form" in the Security section
     Then the hamburger menu displays correctly

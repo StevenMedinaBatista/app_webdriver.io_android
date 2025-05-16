@@ -5,6 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const cucumber_1 = require("@cucumber/cucumber");
 const splashPage_1 = __importDefault(require("../../pages/mobile/splashPage"));
+const splashPage_2 = __importDefault(require("../../pages/mobile/splashPage"));
 (0, cucumber_1.Before)(async () => {
     await driver.closeApp();
     await driver.launchApp();
@@ -59,4 +60,10 @@ const splashPage_1 = __importDefault(require("../../pages/mobile/splashPage"));
 });
 (0, cucumber_1.Then)('the user is sent to the login_password_screen', async () => {
     await splashPage_1.default.verifyLoginPasswordScreen();
+});
+(0, cucumber_1.When)('the user taps on the {string} option', async (option) => {
+    await splashPage_2.default.tapOnOption(option);
+});
+(0, cucumber_1.Then)('the {string} screen is displayed', async (option) => {
+    await splashPage_2.default.validateScreenIsDisplayed(option);
 });

@@ -19,6 +19,16 @@ class splashPage extends page_1.default {
     get lbl_Usuario() { return $('//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[1]'); }
     get lbl_Contrasena() { return $('//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[2]'); }
     get btn_Acceso_clientes() { return $('//android.widget.TextView[@text="Continuar"]'); }
+    get btn_ComunicateConNosotros() { return $('//android.widget.TextView[@text="Comunícate \ncon nosotros"]'); }
+    get btn_TasasDeRendimiento() { return $('//android.widget.TextView[@text="Tasas de \nrendimiento"]'); }
+    get btn_CalculadoraPopular() { return $('//android.widget.TextView[@text="Calculadora \nPopular"]'); }
+    get txt_DeQueFormaDeseasContactarnos() { return $('//android.widget.TextView[@text="¿De qué forma deseas contactarnos?"]'); }
+    get btn_EnviarCorreo() { return $('android=new UiSelector().text("Enviar\ncorreo")'); }
+    get icon_EnviarCorreo() { return $('//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View/android.view.View[1]'); }
+    get btn_SolicitarCita() { return $('//android.widget.TextView[@text="Solicitar \ncita"]'); }
+    get btn_SeguirnosEnInstagram() { return $('//android.widget.TextView[@text="Seguirnos en \nInstagram"]'); }
+    get txt_TasasDeRendimiento() { return $('//android.widget.TextView[@text="Tasas de rendimiento"]'); }
+    get txt_CalculadoraMutuosPopular() { return $('//android.widget.TextView[@text="Calculadora Mutuos Popular"]'); }
     async validate() {
         console.log("Validate Login");
         const iniciarSesion_button = "Iniciar sesión";
@@ -123,6 +133,46 @@ class splashPage extends page_1.default {
             ]);
             await driver.pause(500);
         }
+    }
+    async mapOptionToElement(option) {
+        switch (option) {
+            case 'Comunícate con nosotros':
+                return this.btn_ComunicateConNosotros;
+            case 'Tasas de rendimiento':
+                return this.btn_TasasDeRendimiento;
+            case 'Calculadora Popular':
+                return this.btn_CalculadoraPopular;
+            case 'Enviar\ncorreo':
+                return this.btn_EnviarCorreo;
+            case 'Solicitar cita':
+                return this.btn_SolicitarCita;
+            case 'Seguirnos en Instagram':
+                return this.btn_SeguirnosEnInstagram;
+            default:
+                throw new Error(`No se reconoce la opción: ${option}`);
+        }
+    }
+    async tapOnOption(option) {
+        const element = await this.mapOptionToElement(option);
+        await element.waitForDisplayed({ timeout: 10000 });
+        await element.click();
+    }
+    async validateScreenIsDisplayed(option) {
+        let element;
+        switch (option) {
+            case 'Comunícate con nosotros':
+                element = await this.txt_DeQueFormaDeseasContactarnos;
+                break;
+            case 'Tasas de rendimiento':
+                element = await this.txt_TasasDeRendimiento;
+                break;
+            case 'Calculadora Popular':
+                element = await this.txt_CalculadoraMutuosPopular;
+                break;
+            default:
+                throw new Error(`No se reconoce la pantalla para la opción: ${option}`);
+        }
+        await element.waitForDisplayed({ timeout: 15000 });
     }
 }
 exports.default = new splashPage();

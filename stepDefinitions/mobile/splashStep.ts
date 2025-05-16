@@ -6,6 +6,9 @@ import { Before, Given, When, Then, setDefaultTimeout } from "@cucumber/cucumber
 import HomePage from "../../pages/mobile/homePage";
 import LoginPage from "../../pages/mobile/loginPage";
 import SplashPage from "../../pages/mobile/splashPage";
+import DashboardPage from "../../pages/mobile/04_dashboardPage";
+import splashPage from "../../pages/mobile/splashPage";
+
 
 Before(async () => {
     // Para reiniciar el app, ahora en las nuevas versiones de appium se recomienda cerrar y abrir en vez de reiniciar.
@@ -82,4 +85,18 @@ Then('the user is sent to the Welcome_Screen', async () => {
 
 Then('the user is sent to the login_password_screen', async () => {
     await SplashPage.verifyLoginPasswordScreen();
+});
+
+
+
+//* StepsDefinitions Pre-Login
+
+
+
+When('the user taps on the {string} option', async (option: string) => {
+    await splashPage.tapOnOption(option);
+});
+
+Then('the {string} screen is displayed', async (option: string) => {
+    await splashPage.validateScreenIsDisplayed(option);
 });

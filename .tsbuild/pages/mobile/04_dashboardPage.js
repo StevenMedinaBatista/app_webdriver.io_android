@@ -254,6 +254,10 @@ class DashboardPage extends page_1.default {
         await expect(this.txt_verMenos).toBePresent();
         await this.txt_verMenos.click();
     }
+    async tapCerrarSession() {
+        await expect(this.btn_cerrarSesion).toBePresent();
+        await this.btn_cerrarSesion.click();
+    }
     async clickInvestmentPurpose(purpose) {
         const purposes = {
             'Comprar bienes': this.btn_comprarBienes,
