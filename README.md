@@ -1,9 +1,7 @@
 <<<<<<< HEAD
 # Application Information
 (This project was executed with apk, app, ipa generated from)
-Repository (link) [ipsa_webdriver.io_android](https://cohvsappbit01.corp.popular.local:8443/projects/BAP/repos/ipsa_webdriver.io_android/browse)
-Branch (link):
-Commit Date: 10/04/2023
+Repository (link)  
 
 # Mobile, Web and API test automation
 

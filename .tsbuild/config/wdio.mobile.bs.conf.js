@@ -11,7 +11,7 @@ exports.config = {
     exclude: [],
     maxInstances: 1,
     capabilities: [{
-            "appium:app": 'bs://4e6dc05108e4d7f2c75aba6875e8fc0341f50661',
+            "appium:app": 'bs://4444444444444444444444',
             "appium:deviceName": 'Samsung Galaxy S21',
             "appium:platformVersion": '12.0',
             "appium:automationName": 'UiAutomator2',
