@@ -114,8 +114,8 @@ export const config: WebdriverIO.Config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    user: 'lucianodegani_p2akEM',
-    key: 'kLsoierqdEryUoyYfvTn',
+    user: 'username-user-etc',
+    key: 'key-char-letter-etc',
     services: [
         ['browserstack', {
             browserstackLocal: true,
